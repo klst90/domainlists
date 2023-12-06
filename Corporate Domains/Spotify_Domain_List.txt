@@ -1,0 +1,57 @@
+#List of Mozilla Domains with comments for function
+#
+#Last update: 2023-11-29
+#
+
+#Needed for streaming
+####################
+accounts.scdn.co
+accounts.spotify.com
+api-tv.spotify.com
+api.spotify.com
+apresolve.spotify.com
+audio-ake.spotify.com.edgesuite.net
+market.spotify.com
+mobile-ap.spotify.com
+spclient.wg.spotify.com
+spotify.com
+upgrade.scdn.com
+open.spotify.com
+
+
+
+#Function unknown
+####################
+
+ap-gew4.spotify.com
+ap.spotify.com
+api-partner.spotify.com
+clienttoken.spotify.com
+dealer.spotify.com
+esdk-ffl.spotify.com
+gae-spclient.spotify.com
+gew-spclient.spotify.com
+gew4-dealer.spotify.com
+gew4-spclient.spotify.com
+guc-spclient.spotify.com
+image-cdn-ak.spotifycdn.com
+login5.spotify.com
+scdn.co
+seed-mix-image.spotifycdn.com
+web-sdk-assets.spotifycdn.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
