@@ -2,7 +2,7 @@
 #Categorys: SmartTV Tracking and AD Domains
 #
 #Blocked Domains: 314
-#Last Update: 24.12.2023 02:47:16
+#Last Update: 25.12.2023 02:47:16
 #
 #================================================
 
