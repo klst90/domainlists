@@ -2,7 +2,7 @@
 #Categorys: Spam Domains
 #
 #Blocked Domains: 10499
-#Last Update: 26.12.2023 02:47:28
+#Last Update: 27.12.2023 02:47:19
 #
 #================================================
 
