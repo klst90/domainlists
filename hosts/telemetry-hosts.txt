@@ -1,8 +1,8 @@
 #HOSTS File
 #Categorys: Telemetry Domains
 #
-#Blocked Domains: 669
-#Last Update: 31.12.2023 02:47:23
+#Blocked Domains: 668
+#Last Update: 01.01.2024 02:47:27
 #
 #================================================
 
@@ -599,7 +599,6 @@
 0.0.0.0 statsfe2.update.microsoft.com
 0.0.0.0 statsfe2.ws.microsoft.com
 0.0.0.0 stocks-analytics-events.apple.com
-0.0.0.0 stocks-analytics-events.news.apple-dns.net
 0.0.0.0 supportmetrics.apple.com
 0.0.0.0 survey.watson.microsoft.com
 0.0.0.0 tb.events.data.microsoft.com
