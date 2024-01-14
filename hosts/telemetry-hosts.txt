@@ -2,7 +2,7 @@
 #Categorys: Telemetry Domains
 #
 #Blocked Domains: 665
-#Last Update: 13.01.2024 02:47:24
+#Last Update: 14.01.2024 02:47:25
 #
 #================================================
 
