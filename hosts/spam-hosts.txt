@@ -1,8 +1,8 @@
 #HOSTS File
 #Categorys: Spam Domains
 #
-#Blocked Domains: 10499
-#Last Update: 16.02.2024 02:47:22
+#Blocked Domains: 10511
+#Last Update: 17.02.2024 02:47:21
 #
 #================================================
 
@@ -178,6 +178,7 @@
 0.0.0.0 9-best-seo.com
 0.0.0.0 a1hacks.com
 0.0.0.0 abacoasale.xyz
+0.0.0.0 abaiak.com
 0.0.0.0 abcdefh.xyz
 0.0.0.0 abcdeg.xyz
 0.0.0.0 abclauncher.com
@@ -254,6 +255,7 @@
 0.0.0.0 afora.ru
 0.0.0.0 afp.gov.au.id312666359-9036410720.w595505.com
 0.0.0.0 afreenetflixaccount.com
+0.0.0.0 afshan.shop
 0.0.0.0 agario-bots.com
 0.0.0.0 agmtrk.com
 0.0.0.0 agpaving.com
@@ -741,6 +743,7 @@
 0.0.0.0 best-hacks.net
 0.0.0.0 besthacks.net
 0.0.0.0 besthacktools.net
+0.0.0.0 besthatcheries.com
 0.0.0.0 bestimg.pw
 0.0.0.0 best-mam.ru
 0.0.0.0 bestmobilityscooterstoday.com
@@ -5188,6 +5191,7 @@
 0.0.0.0 hardmovie.info
 0.0.0.0 hardosale.xyz
 0.0.0.0 hard-porn.mobi
+0.0.0.0 harpro.net
 0.0.0.0 haters.faboshine.com
 0.0.0.0 havepussy.com
 0.0.0.0 hawaiisurf.com
@@ -5282,6 +5286,7 @@
 0.0.0.0 historicskins.fun
 0.0.0.0 hit-kino.ru
 0.0.0.0 hitman-absolution.filesforgames.com
+0.0.0.0 hitree.shop
 0.0.0.0 hkjrsale.xyz
 0.0.0.0 hl3beta.com
 0.0.0.0 hobbitkomhack.com
@@ -6138,6 +6143,7 @@
 0.0.0.0 liftmygram.com
 0.0.0.0 ligastavok-in.ru
 0.0.0.0 lightdrop.top
+0.0.0.0 lighthearteds.shop
 0.0.0.0 lightingshots.com
 0.0.0.0 light-screen.net
 0.0.0.0 lightscreenshot.eu
@@ -6673,6 +6679,7 @@
 0.0.0.0 mosputana.top
 0.0.0.0 mosrif.ru
 0.0.0.0 mossiemckenzie.shop
+0.0.0.0 mostbet-285.com
 0.0.0.0 mostbet-original.ru
 0.0.0.0 mostcool.top
 0.0.0.0 mostorgnerud.ru
@@ -8627,6 +8634,7 @@
 0.0.0.0 sms-applecare.com
 0.0.0.0 smt4.ru
 0.0.0.0 smushgame.com
+0.0.0.0 smzt.shop
 0.0.0.0 snabs.kz
 0.0.0.0 snackygame.com
 0.0.0.0 snaggy-screen.su
@@ -8825,6 +8833,7 @@
 0.0.0.0 start-bets.com
 0.0.0.0 startgifts.com
 0.0.0.0 startmyhost.com
+0.0.0.0 startraffic.online
 0.0.0.0 starts-bets.com
 0.0.0.0 statashop.xyz
 0.0.0.0 stat.lviv.ua
@@ -9093,6 +9102,7 @@
 0.0.0.0 taartstore.xyz
 0.0.0.0 tabfirmware.com
 0.0.0.0 taged.ru
+0.0.0.0 tagmeanvice.live
 0.0.0.0 taihouse.ru
 0.0.0.0 takedaxgames.com
 0.0.0.0 takehacks.com
@@ -9588,6 +9598,7 @@
 0.0.0.0 unibus.su
 0.0.0.0 unionleisurewear.com
 0.0.0.0 unionxcase.com
+0.0.0.0 uniqgen.net
 0.0.0.0 uniquehack.com
 0.0.0.0 uniquehacks.org
 0.0.0.0 unique-skins.net
@@ -10121,6 +10132,7 @@
 0.0.0.0 wowku.ru
 0.0.0.0 wpnull.org
 0.0.0.0 wpthemes.lock24.net
+0.0.0.0 wptraffic.xyz
 0.0.0.0 wrc-info.ru
 0.0.0.0 wsofreedownload.com
 0.0.0.0 wsstore.cc
