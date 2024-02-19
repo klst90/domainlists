@@ -1,8 +1,8 @@
 #HOSTS File
 #Categorys: Spam Domains
 #
-#Blocked Domains: 10511
-#Last Update: 18.02.2024 02:47:21
+#Blocked Domains: 10512
+#Last Update: 19.02.2024 02:47:21
 #
 #================================================
 
@@ -5287,6 +5287,7 @@
 0.0.0.0 hit-kino.ru
 0.0.0.0 hitman-absolution.filesforgames.com
 0.0.0.0 hitree.shop
+0.0.0.0 hiwpro.xyz
 0.0.0.0 hkjrsale.xyz
 0.0.0.0 hl3beta.com
 0.0.0.0 hobbitkomhack.com
