@@ -1,8 +1,8 @@
 #HOSTS File
 #Categorys: Telemetry Domains
 #
-#Blocked Domains: 644
-#Last Update: 23.02.2024 02:47:24
+#Blocked Domains: 680
+#Last Update: 24.02.2024 02:47:24
 #
 #================================================
 
@@ -14,6 +14,10 @@
 
 #================================================
 
+0.0.0.0 0001-metrics1-data-hicloud-com.geac.dbankedge.cn
+0.0.0.0 0001-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
+0.0.0.0 0002-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
+0.0.0.0 0003-metrics1-data-hicloud-com.geac.dbankedge.cn
 0.0.0.0 1oavsblobprodcus350.blob.core.windows.net
 0.0.0.0 37bvsblobprodcus311.blob.core.windows.net
 0.0.0.0 a-0001.a-msedge.net
@@ -43,7 +47,12 @@
 0.0.0.0 ads1.msn.com
 0.0.0.0 ads.msn.com
 0.0.0.0 adx-dra.op.dbankcloud.com
+0.0.0.0 adx-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn
+0.0.0.0 adx-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
+0.0.0.0 adx-dra-op-dbankcloud-com-dra.region.dbankedge.cn
 0.0.0.0 adx-dra.op.hicloud.com
+0.0.0.0 adx-dra-op-hicloud-com-dra.appacc.dbankedge.cn
+0.0.0.0 adx-dra-op-hicloud-com-dra.edge.dbankedge.cn
 0.0.0.0 adx-drcn.op.dbankcloud.cn
 0.0.0.0 adx-dre.op.dbankcloud.com
 0.0.0.0 adx-dre.op.dbankcloud.com.edgekey.net
@@ -321,12 +330,24 @@
 0.0.0.0 events.data.microsoft.com
 0.0.0.0 events.data.msn.cn
 0.0.0.0 events.data.msn.com
+0.0.0.0 events-dra-op-dbankcloud-cn-dra.appacc.dbankedge.cn
+0.0.0.0 events-dra-op-dbankcloud-cn-dra.appacc-region.dbankedge.cn
+0.0.0.0 events-dra-op-dbankcloud-cn-dra.edge.dbankedge.cn
+0.0.0.0 events-dra-op-dbankcloud-cn-dra.region.dbankedge.cn
+0.0.0.0 events-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn
+0.0.0.0 events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
+0.0.0.0 events-dra-op-dbankcloud-com-dra.region.dbankedge.cn
 0.0.0.0 events-dra.op.hicloud.com
+0.0.0.0 events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
+0.0.0.0 events-dra-op-hicloud-com-dra.appacc-region.dbankedge.cn
+0.0.0.0 events-dra-op-hicloud-com-dra.edge.dbankedge.cn
 0.0.0.0 events-dre.op.dbankcloud.com
 0.0.0.0 events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn
 0.0.0.0 events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn
 0.0.0.0 events-dre.op.hicloud.com
 0.0.0.0 events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
+0.0.0.0 events-op-hicloud-com-drcn.appacc.dbankedge.net
+0.0.0.0 events-op-hicloud-com-drcn.appacc-region.dbankedge.net
 0.0.0.0 events-sandbox.data.microsoft.com
 0.0.0.0 events-sandbox.data.msn.com
 0.0.0.0 excelonline.nel.measure.office.net
@@ -352,8 +373,19 @@
 0.0.0.0 g.msn.com
 0.0.0.0 graph-next.fp.measure.office.com
 0.0.0.0 grs.dbankcloud.asia
+0.0.0.0 grs-dbankcloud-asia-dra.appacc.dbankedge.cn
+0.0.0.0 grs-dbankcloud-asia-dra.appacc-region.dbankedge.cn
 0.0.0.0 grs.dbankcloud.cn
 0.0.0.0 grs.dbankcloud.com
+0.0.0.0 grs-dbankcloud-com-dra.appacc.dbankedge.cn
+0.0.0.0 grs-dbankcloud-com-dra.appacc-region.dbankedge.cn
+0.0.0.0 grs-dbankcloud-com-dra.edge.dbankedge.cn
+0.0.0.0 grs-dbankcloud-com-dra.region.dbankedge.cn
+0.0.0.0 grs-dbankcloud-com-drcn.wec.dbankedge.cn
+0.0.0.0 grs-dbankcloud-com-dre.appacc.dbankedge.cn
+0.0.0.0 grs-dbankcloud-com-dre.appacc-region.dbankedge.cn
+0.0.0.0 grs-dbankcloud-com-dre.edge.dbankedge.cn
+0.0.0.0 grs-dbankcloud-com-dre.region.dbankedge.cn
 0.0.0.0 grs.dbankcloud.eu
 0.0.0.0 grs.hicloud.com
 0.0.0.0 grs.platform.dbankcloud.ru
@@ -482,7 +514,11 @@
 0.0.0.0 measure.office.net
 0.0.0.0 metrics1.data.dbankcloud.cn
 0.0.0.0 metrics1.data.hicloud.com
+0.0.0.0 metrics1-data-hicloud-com.ge.dbankedge.cn
+0.0.0.0 metrics1-data-hicloud-com.gere.dbankedge.cn
 0.0.0.0 metrics1-drcn.dt.dbankcloud.cn
+0.0.0.0 metrics1-drcn-dt-dbankcloud-cn.ge.dbankedge.cn
+0.0.0.0 metrics1-drcn-dt-dbankcloud-cn.gere.dbankedge.cn
 0.0.0.0 metrics2.data.hicloud.com
 0.0.0.0 metrics3.data.hicloud.com
 0.0.0.0 metrics5.data.hicloud.com
