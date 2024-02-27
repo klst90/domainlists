@@ -1,8 +1,8 @@
 #HOSTS File
 #Categorys: Telemetry Domains
 #
-#Blocked Domains: 680
-#Last Update: 26.02.2024 02:47:25
+#Blocked Domains: 701
+#Last Update: 27.02.2024 02:47:24
 #
 #================================================
 
@@ -70,6 +70,7 @@
 0.0.0.0 api.edgeoffer.microsoft.com
 0.0.0.0 apps.skype.com
 0.0.0.0 a.rad.msn.com
+0.0.0.0 aria.events.data.trafficmanager.net
 0.0.0.0 asimov.events.data.trafficmanager.net
 0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
 0.0.0.0 assets.activity.windows.com
@@ -139,6 +140,7 @@
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 browser.events.data.msn.cn
 0.0.0.0 browser.events.data.msn.com
+0.0.0.0 browser.events.data.trafficmanager.net
 0.0.0.0 browser.pipe.aria.microsoft.com
 0.0.0.0 bs.serving-sys.com
 0.0.0.0 by3301-a.1drv.com
@@ -309,6 +311,7 @@
 0.0.0.0 ecs.nel.measure.office.net
 0.0.0.0 emea.events.data.microsoft.com
 0.0.0.0 emea.events.data.trafficmanager.net
+0.0.0.0 eu.aria.events.data.trafficmanager.net
 0.0.0.0 eu.blobcollector.events.data.trafficmanager.net
 0.0.0.0 euc-excel-telemetry.officeapps.live.com
 0.0.0.0 euc-powerpoint-telemetry.officeapps.live.com
@@ -318,6 +321,7 @@
 0.0.0.0 eu-ic3.events.data.microsoft.com
 0.0.0.0 eu-mobile.events.data.microsoft.com
 0.0.0.0 eu-office.events.data.microsoft.com
+0.0.0.0 eu.pipe.aria.microsoft.com
 0.0.0.0 eurppc-excel-telemetry.officeapps.live.com
 0.0.0.0 eurppc-powerpoint-telemetry.officeapps.live.com
 0.0.0.0 eu-teams.events.data.microsoft.com
@@ -330,6 +334,7 @@
 0.0.0.0 events.data.microsoft.com
 0.0.0.0 events.data.msn.cn
 0.0.0.0 events.data.msn.com
+0.0.0.0 events.data.trafficmanager.net
 0.0.0.0 events-dra-op-dbankcloud-cn-dra.appacc.dbankedge.cn
 0.0.0.0 events-dra-op-dbankcloud-cn-dra.appacc-region.dbankedge.cn
 0.0.0.0 events-dra-op-dbankcloud-cn-dra.edge.dbankedge.cn
@@ -369,6 +374,7 @@
 0.0.0.0 geo.settings.data.microsoft.com.akadns.net
 0.0.0.0 geo.settings-win.data.microsoft.com.akadns.net
 0.0.0.0 geo.vortex.data.microsoft.com.akadns.net
+0.0.0.0 global.aria.events.data.trafficmanager.net
 0.0.0.0 global.asimov.events.data.trafficmanager.net
 0.0.0.0 g.msn.com
 0.0.0.0 graph-next.fp.measure.office.com
@@ -537,6 +543,7 @@
 0.0.0.0 metrics.mzstatic.com
 0.0.0.0 m.hotmail.com
 0.0.0.0 mobile.events.data.microsoft.com
+0.0.0.0 mobile.events.data.trafficmanager.net
 0.0.0.0 mobile.events-sandbox.data.microsoft.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
 0.0.0.0 modern.watson.data.microsoft.com.akadns.net
@@ -559,13 +566,16 @@
 0.0.0.0 office-events-data.trafficmanager.net
 0.0.0.0 office-g.events.data.microsoft.com
 0.0.0.0 officehub.nel.measure.office.net
+0.0.0.0 office.pipe.aria.microsoft.com
 0.0.0.0 onecollector.cloudapp.aria.akadns.net
 0.0.0.0 onenoteonline.nel.measure.office.net
 0.0.0.0 openlocation-drcn.platform.dbankcloud.com
 0.0.0.0 par02p.wns.windows.com
 0.0.0.0 pf.events.data.microsoft.com
 0.0.0.0 pf.events.data.trafficmanager.net
+0.0.0.0 pf.pipe.aria.microsoft.com
 0.0.0.0 phonesubmissions.apple.com
+0.0.0.0 pipe.aria.microsoft.com
 0.0.0.0 powerpointonline.nelsdf.measure.office.net
 0.0.0.0 powerpoint-telemetry.officeapps.live.com
 0.0.0.0 ppc-excel-telemetry.officeapps.live.com
@@ -590,6 +600,14 @@
 0.0.0.0 securemvt.apple.com
 0.0.0.0 self.events.data.microsoft.com
 0.0.0.0 self-events-data.trafficmanager.net
+0.0.0.0 server1.pipe.aria.microsoft.com
+0.0.0.0 server2.pipe.aria.microsoft.com
+0.0.0.0 server3.pipe.aria.microsoft.com
+0.0.0.0 server4.pipe.aria.microsoft.com
+0.0.0.0 server5.pipe.aria.microsoft.com
+0.0.0.0 server6.pipe.aria.microsoft.com
+0.0.0.0 server7.pipe.aria.microsoft.com
+0.0.0.0 server8.pipe.aria.microsoft.com
 0.0.0.0 server.events.data.microsoft.com
 0.0.0.0 server.events.data.trafficmanager.net
 0.0.0.0 services.wes.df.telemetry.microsoft.com
@@ -619,6 +637,7 @@
 0.0.0.0 survey.watson.microsoft.com
 0.0.0.0 tb.events.data.microsoft.com
 0.0.0.0 tb.events.data.trafficmanager.net
+0.0.0.0 tb.pipe.aria.microsoft.com
 0.0.0.0 teams.events.data.microsoft.com
 0.0.0.0 teams-events-data.trafficmanager.net
 0.0.0.0 teams.nel.measure.office.net
@@ -648,9 +667,11 @@
 0.0.0.0 upload.fp.measure.office.com
 0.0.0.0 us4-v20.events.data.microsoft.com
 0.0.0.0 us5-v20.events.data.microsoft.com
+0.0.0.0 us.aria.events.data.trafficmanager.net
 0.0.0.0 usc-visio-telemetry.officeapps.live.com
 0.0.0.0 us.events.data.trafficmanager.net
 0.0.0.0 us-mobile.events.data.microsoft.com
+0.0.0.0 us.pipe.aria.microsoft.com
 0.0.0.0 us-teams.events.data.microsoft.com
 0.0.0.0 us-v10c.events.data.microsoft.com
 0.0.0.0 us-v10.events.data.microsoft.com
