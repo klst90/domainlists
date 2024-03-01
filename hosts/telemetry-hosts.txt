@@ -1,8 +1,8 @@
 #HOSTS File
 #Categorys: Telemetry Domains
 #
-#Blocked Domains: 701
-#Last Update: 29.02.2024 02:47:28
+#Blocked Domains: 745
+#Last Update: 01.03.2024 02:47:17
 #
 #================================================
 
@@ -74,6 +74,7 @@
 0.0.0.0 asimov.events.data.trafficmanager.net
 0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
 0.0.0.0 assets.activity.windows.com
+0.0.0.0 auc-visio-telemetry.officeapps.live.com
 0.0.0.0 au.events.data.trafficmanager.net
 0.0.0.0 au-mobile.events.data.microsoft.com
 0.0.0.0 au-v10c.events.data.microsoft.com
@@ -137,6 +138,7 @@
 0.0.0.0 bn4sch102110124.wns.windows.com
 0.0.0.0 books-analytics-events.apple.com
 0.0.0.0 b.rad.msn.com
+0.0.0.0 brc-visio-telemetry.officeapps.live.com
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 browser.events.data.msn.cn
 0.0.0.0 browser.events.data.msn.com
@@ -314,6 +316,7 @@
 0.0.0.0 eu.aria.events.data.trafficmanager.net
 0.0.0.0 eu.blobcollector.events.data.trafficmanager.net
 0.0.0.0 euc-excel-telemetry.officeapps.live.com
+0.0.0.0 euc-onenote-telemetry.officeapps.live.com
 0.0.0.0 euc-powerpoint-telemetry.officeapps.live.com
 0.0.0.0 euc-visio-telemetry.officeapps.live.com
 0.0.0.0 euc-word-telemetry.officeapps.live.com
@@ -322,8 +325,10 @@
 0.0.0.0 eu-mobile.events.data.microsoft.com
 0.0.0.0 eu-office.events.data.microsoft.com
 0.0.0.0 eu.pipe.aria.microsoft.com
+0.0.0.0 eurffc-word-telemetry.officeapps.live.com
 0.0.0.0 eurppc-excel-telemetry.officeapps.live.com
 0.0.0.0 eurppc-powerpoint-telemetry.officeapps.live.com
+0.0.0.0 eurppc-word-telemetry.officeapps.live.com
 0.0.0.0 eu-teams.events.data.microsoft.com
 0.0.0.0 eu-v10c.events.data.microsoft.com
 0.0.0.0 eu-v10.events.data.microsoft.com
@@ -490,6 +495,7 @@
 0.0.0.0 identity.nel.measure.office.net
 0.0.0.0 ieonlinews.microsoft.com
 0.0.0.0 ieonlinews.trafficmanager.net
+0.0.0.0 inc-visio-telemetry.officeapps.live.com
 0.0.0.0 insideruser.trafficmanager.net
 0.0.0.0 i-sn2-cor001.api.p001.1drv.com
 0.0.0.0 i-sn2-cor002.api.p001.1drv.com
@@ -555,6 +561,7 @@
 0.0.0.0 nexusrules.live.com
 0.0.0.0 noam.events.data.microsoft.com
 0.0.0.0 noam.events.data.trafficmanager.net
+0.0.0.0 noc-visio-telemetry.officeapps.live.com
 0.0.0.0 notes-analytics-events.apple.com
 0.0.0.0 nw-umwatson.events.data.microsoft.com
 0.0.0.0 o365diagtelemetry.trafficmanager.net
@@ -574,6 +581,35 @@
 0.0.0.0 pf.events.data.microsoft.com
 0.0.0.0 pf.events.data.trafficmanager.net
 0.0.0.0 pf.pipe.aria.microsoft.com
+0.0.0.0 pgteu1-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgteu1-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgteu1-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgteu2-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgteu2-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgteu2-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgteu3-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgteu3-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgteu3-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgteu4-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgteu4-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus1-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus1-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus1-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus2-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus2-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus2-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus3-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus3-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus3-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus4-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus4-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus4-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus5-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus5-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus5-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus6-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus6-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtus6-word-telemetry-vip.officeapps.live.com
 0.0.0.0 phonesubmissions.apple.com
 0.0.0.0 pipe.aria.microsoft.com
 0.0.0.0 powerpointonline.nelsdf.measure.office.net
@@ -616,6 +652,9 @@
 0.0.0.0 settings-win-ppe.data.microsoft.com
 0.0.0.0 sg2p.wns.windows.com
 0.0.0.0 s.gateway.messenger.live.com
+0.0.0.0 sgtus1-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 sgtus1-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 sgtus1-word-telemetry-vip.officeapps.live.com
 0.0.0.0 sn3301-c.1drv.com
 0.0.0.0 sn3301-e.1drv.com
 0.0.0.0 sn3301-g.1drv.com
@@ -651,9 +690,13 @@
 0.0.0.0 teredo.ipv6.microsoft.com
 0.0.0.0 test.activity.windows.com
 0.0.0.0 tfl.nel.measure.office.net
+0.0.0.0 tgtus1-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 tgtus1-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 tgtus1-word-telemetry-vip.officeapps.live.com
 0.0.0.0 tr.iadsdk.apple.com
 0.0.0.0 ubacollect-drcn.cloud.dbankcloud.cn
 0.0.0.0 ui.skype.com
+0.0.0.0 ukc-onenote-telemetry.officeapps.live.com
 0.0.0.0 ukc-visio-telemetry.officeapps.live.com
 0.0.0.0 uk.events.data.trafficmanager.net
 0.0.0.0 uk-mobile.events.data.microsoft.com
@@ -668,6 +711,7 @@
 0.0.0.0 us4-v20.events.data.microsoft.com
 0.0.0.0 us5-v20.events.data.microsoft.com
 0.0.0.0 us.aria.events.data.trafficmanager.net
+0.0.0.0 usc-onenote-telemetry.officeapps.live.com
 0.0.0.0 usc-visio-telemetry.officeapps.live.com
 0.0.0.0 us.events.data.trafficmanager.net
 0.0.0.0 us-mobile.events.data.microsoft.com
