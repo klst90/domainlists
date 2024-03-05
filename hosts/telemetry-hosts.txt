@@ -1,8 +1,8 @@
 #HOSTS File
 #Categorys: Telemetry Domains
 #
-#Blocked Domains: 744
-#Last Update: 04.03.2024 02:47:22
+#Blocked Domains: 743
+#Last Update: 05.03.2024 02:47:17
 #
 #================================================
 
@@ -17,7 +17,6 @@
 0.0.0.0 0001-metrics1-data-hicloud-com.geac.dbankedge.cn
 0.0.0.0 0001-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
 0.0.0.0 0002-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
-0.0.0.0 0003-metrics1-data-hicloud-com.geac.dbankedge.cn
 0.0.0.0 1oavsblobprodcus350.blob.core.windows.net
 0.0.0.0 37bvsblobprodcus311.blob.core.windows.net
 0.0.0.0 a-0001.a-msedge.net
