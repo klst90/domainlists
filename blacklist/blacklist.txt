@@ -5,12 +5,21 @@
 #Add custom entries here:
 #=======================================================================
 mobiletelemetry.ebay.com
-
-
-
-
-
-
+firebase-settings.crashlytics.com
+crashlyticsreports-pa.googleapis.com
+firebaselogging-pa.googleapis.com
+firebaseinstallations.googleapis.com
+graph.facebook.com
+habwz5-cdn-settings.appsflyersdk.com
+o1069899.ingest.sentry.io
+piwik.hacon.de
+4389193d19bcbfb46a29fa2af6ed1f2c.safeframe.googlesyndication.com
+*.googlesyndication.com
+googleads.g.doubleclick.net
+*.doubleclick.net
+region1.analytics.google.com
+region1.analytics.google.com
+collector-pxikkul2rm.perimeterx.net
 
 
 
