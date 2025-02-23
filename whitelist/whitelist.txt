@@ -1025,6 +1025,7 @@ api.usercentrics.eu
 app.usercentrics.eu
 cdn.cookielaw.org
 cdn.privacy-mgmt.com
+vendor-list.consensu.org
 
 #Time Server
 #############
@@ -1077,6 +1078,7 @@ account.bitpanda.com
 accounts.binance.com
 api.bitpanda.com
 sbcdn.bitpanda.com
+web.bitpanda.com
 api.coingecko.com
 api.shimmer.network
 api.stardust-mainnet.iotaledger.net
@@ -1126,6 +1128,7 @@ my.internex.at
 www.digitalocean.com
 www.hostpresto.com
 proxy-ssl.webflow.com
+web.jimdo.com
 
 #ORF
 ###########
@@ -1173,6 +1176,7 @@ www.kabeleins.at
 mira.kabeleins.at
 datalayer.p7s1.io
 s.p7s1.io
+vas.live.p7s1video.net
 
 #ZDF
 ######
@@ -1274,6 +1278,7 @@ bestsecret.at
 bestsecret.com
 help.bestsecret.at.00d0y000001frqpuau.live.siteforce.com
 s.shopify.com
+url2600.vitaminexpress.org
 
 # Aliexpress
 ######################
@@ -1825,7 +1830,7 @@ cdn.ravenjs.com
 cdn.ziffstatic.com
 cs22.wpc.v0cdn.net
 res.cloudinary.com
-settingsfd-geo.trafficmanager.net
+unpkg.com
 
 # for video hosting on various news sites
 #########################
@@ -2582,3 +2587,6 @@ px.wa.ui-portal.de
 query1.finance.yahoo.com
 static.ubnt.com
 winfuture.de
+whatismyipaddress.com
+wallpapercave.com
+urlscan.io
