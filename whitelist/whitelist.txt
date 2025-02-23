@@ -1185,6 +1185,8 @@ middleware.p7s1.io
 cmp.p7s1.io
 component.player.p7s1.io
 config.player.p7s1.io
+oasis-player.p7s1.io
+player-feedback.p7s1video.net
 
 #ZDF
 ######
@@ -1288,6 +1290,7 @@ bestsecret.com
 help.bestsecret.at.00d0y000001frqpuau.live.siteforce.com
 s.shopify.com
 url2600.vitaminexpress.org
+ol.nice-cdn.com
 
 # Aliexpress
 ######################
@@ -2573,6 +2576,7 @@ assets.anyclip.com
 config.anyclip.com
 cdn5.anyclip.com
 trafficmanager.anyclip.com
+player.anyclip.com
 assets.mmsrg.com
 cdn.mxapis.com
 cdn.teufelaudio.com
