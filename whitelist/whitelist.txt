@@ -5,9 +5,6 @@
 #Add custom entries here:
 
 
-apisd.ebay.com
-druck.at
-www.druck.at
 
 
 
@@ -34,7 +31,8 @@ amazon.com
 
 a58avoddashs3ww-a.akamaihd.net
 ab992t7ewg8z.eu.api.amazonvideo.com        
-api.amazon.de                                          
+api.amazon.de 
+api.amazon.com
 cloudfront.xp-assets.aiv-cdn.net
 d184dfn36gombl.cloudfront.net              
 ecx.images-amazon.com
@@ -556,7 +554,6 @@ pay.google.com
 
 clients1.google.com
 clients2.google.com
-clients3.google.com 
 clients4.google.com 
 clients5.google.com
 clients6.google.com
@@ -656,31 +653,125 @@ msedge.api.cdp.microsoft.com
 
 #Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com...)
 ##################################################################
-
-outlook.office365.com 
-products.office.com 
-c.s-microsoft.com 
-i.s-microsoft.com 
-login.live.com 
-login.microsoftonline.com
-clientconfig.passport.net  
-live.com
-login.live.com
-login.microsoftonline.com
-microsoftonline.com
-office.com
-office.net
-office365.com
-clientconfig.passport.net
+*.api.microsoftstream.com
+*.azureedge.net
+*.broadcast.skype.com
+*.keydelivery.mediaservices.windows.net
+*.lync.com
+*.mail.protection.outlook.com
+*.manage.office.com
+*.media.azure.net
+*.msecnd.net
+*.msedge.net
+*.msftidentity.com
+*.msidentity.com
+*.notification.api.microsoftstream.com
+*.office.net
+*.officeapps.live.com
+*.onenote.com
+*.online.office.com
+*.outlook.com
+*.outlook.office.com
+*.portal.cloudappsecurity.com
+*.protection.office.com
+*.protection.outlook.com
+*.sfbassets.com
+*.sharepointonline.com
+*.skype.com
+*.skypeforbusiness.com
+*.streaming.mediaservices.windows.net
+*.teams.microsoft.com
+*.tenor.com
+*.urlp.sfbassets.com
+*.users.storage.live.com
+*cdn.onenote.net
+account.activedirectory.windowsazure.com
+account.live.com
+account.office.net
+accounts.accesscontrol.windows.net
+accounts.accesscontrol.windows.neta
+admin.microsoft.com
+admin.onedrive.com
+adminwebservice.microsoftonline.com
+ajax.aspnetcdn.com
+aka.ms
+amp.azure.net
+api.microsoftstream.com
+api.passwordreset.microsoftonline.com
+attachments.office.net
 auth.microsoft.com
+autologon.microsoftazuread-sso.com
+becws.microsoftonline.com
+broadcast.skype.com
+c.s-microsoft.com 
+ccs.login.microsoftonline.com
+cdn.onenote.net
+cdn.sharepointonline.com
+clientconfig.microsoftonline-p.net
+clientconfig.passport.net
+clientconfig.passport.net  
+companymanager.microsoftonline.com
+compass-ssl.microsoft.com
+device.login.microsoftonline.com
+graph.microsoft.com
+graph.windows.net
+home.office.com
+i.s-microsoft.com 
+live.com
+login-us.microsoftonline.com
+login.live.com
+login.live.com 
+login.microsoft.com
+login.microsoftonline-p.com
+login.microsoftonline.com
+login.windows.net
+logincdn.msauth.net
+logincert.microsoftonline.com
+loginex.microsoftonline.com
+main.iam.ad.ext.azure.com
+manage.office.com
+microsoftonline.com
+mlccdn.blob.core.windows.net
 msftidentity.com
 msidentity.com
-login.microsoft.com
-login.windows.net
-account.live.com
-login.live.com
-www.outlook.com
+nexus.microsoftonline-p.com
+nexusrules.officeapps.live.com
+office.com
+office.live.com
+office.net
+office365.com
+officeclient.microsoft.com
+onedrive.live.com
+onenote.com
+outlook.live.com
+outlook.office.com
+outlook.office365.com
+outlook.office365.com 
+passwordreset.microsoftonline.com
+portal.office.com
+privatecdn.sharepointonline.com
+products.office.com
+products.office.com 
+protection.office.com
+provisioningapi.microsoftonline.com
+publiccdn.sharepointonline.com
+r1.res.office365.com
+r3.res.office365.com
+r3.res.outlook.com
+r4.res.office365.com
+sharepoint.com
+sharepointonline.com
+skypemaprdsitus.trafficmanager.net
+smtp.office365.com
+spoprod-a.akamaihd.net
+static.sharepointonline.com
+storage.live.com
+suite.office.net
+teams.microsoft.com
+web.microsoftstream.com
 www.microsoft365.com
+www.office.com
+www.outlook.com
 
 #Microsoft Store (Windows Store)
 ################################
@@ -695,7 +786,6 @@ geo-prod.do.dsp.mp.microsoft.com
 #####################
 
 client-s.gateway.messenger.live.com
-
 
 #Xbox Live Achievements (confirmed by Microsoft)
 ##################################################
@@ -750,109 +840,6 @@ xflight.xboxlive.com
 xkms.xboxlive.com
 xsts.auth.xboxlive.com
 catalog.gamepass.com
-
-#Skype
-###############
-
-s.gateway.messenger.live.com 
-client-s.gateway.messenger.live.com 
-ui.skype.com 
-pricelist.skype.com 
-apps.skype.com 
-m.hotmail.com 
-sa.symcb.com 
-s1.symcb.com
-s2.symcb.com
-s3.symcb.com
-s4.symcb.com
-s5.symcb.com
- 
-#Microsoft Office 365
-######################
-
-officeclient.microsoft.com
-nexusrules.officeapps.live.com
-officeclient.microsoft.com
-onedrive.live.com
-outlook.live.com
-outlook.office365.com
-products.office.com
-sharepoint.com
-admin.onedrive.com
-sharepointonline.com
-spoprod-a.akamaihd.net
-teams.microsoft.com
-office.net
-onenote.com
-cdn.onenote.net
-account.activedirectory.windowsazure.com
-accounts.accesscontrol.windows.neta
-adminwebservice.microsoftonline.com
-api.passwordreset.microsoftonline.com
-autologon.microsoftazuread-sso.com
-becws.microsoftonline.com
-ccs.login.microsoftonline.com
-clientconfig.microsoftonline-p.net
-companymanager.microsoftonline.com
-device.login.microsoftonline.com
-
-nexus.microsoftonline-p.com
-passwordreset.microsoftonline.com
-provisioningapi.microsoftonline.com
-smtp.office365.com
-outlook.office.com
-r1.res.office365.com
-r3.res.office365.com
-r4.res.office365.com
-attachments.office.net
-cdn.sharepointonline.com
-privatecdn.sharepointonline.com
-publiccdn.sharepointonline.com
-spoprod-a.akamaihd.net
-static.sharepointonline.com
-teams.microsoft.com
-ajax.aspnetcdn.com
-mlccdn.blob.core.windows.net
-aka.ms
-amp.azure.net
-compass-ssl.microsoft.com
-ajax.aspnetcdn.com
-r3.res.outlook.com
-spoprod-a.akamaihd.net
-api.microsoftstream.com
-web.microsoftstream.com
-account.activedirectory.windowsazure.com
-accounts.accesscontrol.windows.net
-adminwebservice.microsoftonline.com
-api.passwordreset.microsoftonline.com
-autologon.microsoftazuread-sso.com
-becws.microsoftonline.com
-clientconfig.microsoftonline-p.net
-companymanager.microsoftonline.com
-device.login.microsoftonline.com
-graph.microsoft.com
-graph.windows.net
-login.microsoft.com
-login.microsoftonline.com
-login.microsoftonline-p.com
-login.windows.net
-logincert.microsoftonline.com
-loginex.microsoftonline.com
-login-us.microsoftonline.com
-nexus.microsoftonline-p.com
-passwordreset.microsoftonline.com
-provisioningapi.microsoftonline.com
-logincdn.msauth.net
-main.iam.ad.ext.azure.com
-manage.office.com
-protection.office.com
-account.office.net
-admin.microsoft.com
-home.office.com
-portal.office.com
-www.office.com
-suite.office.net
-mlccdn.blob.core.windows.net
 
 #Bing
 #######
@@ -1027,6 +1014,12 @@ apisd.ebay.com
 #consentcdn.cookiebot.eu
 #cookie-banner.uniqa.at
 #cookiehub.net
+a.delivery.consentmanager.net
+cdn.consentmanager.net
+api.usercentrics.eu
+app.usercentrics.eu
+cdn.cookielaw.org
+cdn.privacy-mgmt.com
 
 #Time Server
 #############
@@ -1107,6 +1100,7 @@ yobit.net
 www.liqui.io
 myetherwallet.com
 liqui.io
+api.stardust-mainnet.iotaledger.net
 
 #Web Hoster
 ##############
@@ -1248,6 +1242,15 @@ www.thomas-krenn.com
 www.tischmoebel.de
 www.wienerlinien.at
 www.xxxlutz.at
+www.tchibo.de
+tchibo.de
+www.eduscho.at
+
+# Aliexpress
+######################
+ae04.alicdn.com
+aliexpress.com
+at.alicdn.com
 
 #Rezepte
 ##############
@@ -1492,6 +1495,7 @@ www.numispedia.de
 www.stackoverflow.com
 www.xda-developers.com
 www.zierfischforum.at
+www.w10privacy.de
 xda-developers.com
 
 #Blogs
@@ -1499,7 +1503,11 @@ xda-developers.com
 
 bencane.com
 blog.doenselmann.com
+blog.logrocket.com
 blog.sleeplessbeastie.eu
+blog.whabash.com
+blog.mozilla.com
+blog.mozilla.org
 blog.whabash.com
 computingforgeeks.com
 crycode.de
@@ -1615,6 +1623,7 @@ adblock.dk
 adblock.ee
 adblock.mahakala.is
 adblockplus.org
+adguard-dns.io
 adtidy.org
 archive.icann.org
 bambenekconsulting.com
@@ -1687,6 +1696,10 @@ time.samsungcloudsolution.com
 
 cdn.samsungcloudsolution.com
 
+# LG Firmware Updates
+####################################
+acdnus.lge.com
+
 # URL shorteners
 ###################
 
@@ -1732,6 +1745,10 @@ cdn.edgesuite.net
 cdn.jwplayer.com
 cloudflare.com
 cdnjs.cloudflare.com
+a.storyblok.com
+cdn.iubenda.com
+cdn.ravenjs.com
+cdn.ziffstatic.com
 
 # for video hosting on various news sites
 #########################
@@ -2153,6 +2170,7 @@ static.ubnt.com
 tb-static.uber.com
 wienmobil.page.link
 xoxo.kontomanager.at
+app.launchdarkly.com
 
 #Different Websites and Stuf
 ###############################
@@ -2208,6 +2226,7 @@ www.kleinanzeigen.de
 www.konami.com
 www.laenderdaten.info
 www.linkedin.com
+at.linkedin.com
 www.niederoesterreich-card.at
 www.oeamtc.at
 www.oetker.at
@@ -2222,7 +2241,7 @@ www.wetter.com
 #Banks / Insurance
 ##########################
 
-api-m.paypal.com
+
 auth.myuniqa.at
 cdn0.erstegroup.com
 depot.dad.at
@@ -2231,14 +2250,23 @@ info.raiffeisen.at
 kundenportal.donauversicherung.at
 kundenportal.generali.at
 mydonau.donauversicherung.at
-myuniqa.a
+myuniqa.at
 sso.raiffeisen.at
 www.dad.at
 www.generali.at
 www.myuniqa.at
+
+www.sparkasse.at
+
+#Paypal
+###########
+b.stats.paypal.com
+c.paypal.com
+api-m.paypal.com
 www.paypal.com
 www.paypalobjects.com
-www.sparkasse.at
+zn1ynnliufrct75cb-paypalxm.siteintercept.qualtrics.com
+
 
 #Mail Provider
 ################
@@ -2416,3 +2444,15 @@ www.web.de
 www.world4you.com
 www.ycn.com
 ycn.com
+druck.at
+www.druck.at
+a1fhol.lotterien.at
+arstechnica.com
+assets.anyclip.com
+cdn5.anyclip.com
+assets.mmsrg.com
+cdn.mxapis.com
+cdn.teufelaudio.com
+www.wololo.net
+www.wieistmeineip.de
+www.upsellit.com
