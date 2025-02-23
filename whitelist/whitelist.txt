@@ -25,6 +25,7 @@ www.amazon.de
 www.amazon.com
 amazon.de
 amazon.com
+static-eu.payments-amazon.com
 
 #Amazon Prime Video
 ####################
@@ -1014,6 +1015,7 @@ consent.gutefrage.net
 consent.trustarc.com
 consent.youtube.com
 consentcdn.cookiebot.com
+consent.cookiebot.com
 consentcdn.cookiebot.eu
 consentcdn.cookiebot.com-v1.edgekey.net
 imgsct.cookiebot.com
@@ -1078,6 +1080,7 @@ account.bitpanda.com
 accounts.binance.com
 api.bitpanda.com
 sbcdn.bitpanda.com
+socket.bitpanda.com
 web.bitpanda.com
 api.coingecko.com
 api.shimmer.network
@@ -1179,6 +1182,9 @@ datalayer.p7s1.io
 s.p7s1.io
 vas.live.p7s1video.net
 middleware.p7s1.io
+cmp.p7s1.io
+component.player.p7s1.io
+config.player.p7s1.io
 
 #ZDF
 ######
@@ -1291,7 +1297,8 @@ at.alicdn.com
 de.aliexpress.com
 is.alicdn.com
 img.alicdn.com
-
+g.alicdn.com
+o.alicdn.com
 
 #Rezepte
 ##############
@@ -1498,6 +1505,7 @@ maxmind.com
 dev.maxmind.com
 status.maxmind.com
 support.maxmind.com
+static.maxmind.com
 www.chatgpt.com
 chatgpt.com
 www.chromium.org
@@ -1728,6 +1736,7 @@ zeustracker.abuse.ch
 hideyoshi.spamhaus.net
 hosts-file.net
 hostsfile.org
+cloudflare-dns.com
 hostsfile.mine.nu
 
 # Netflix 
@@ -1825,6 +1834,7 @@ cdn.jwplayer.com
 cloudflare.com
 cdnjs.cloudflare.com
 a.storyblok.com
+gapi.storyblok.com
 cdn.iubenda.com
 idb.iubenda.com
 cs.iubenda.com
@@ -1840,6 +1850,7 @@ settingsfd-geo.trafficmanager.net
 #########################
 dcs-vod.apis.anvato.net
 jwplayer.com
+fresnel.vimeocdn.com
 
 #Movie Metadat
 ###################
@@ -1927,7 +1938,7 @@ gfwsl.geforce.com
 
 # Nvidia updates
 ########################
-
+nvidia.com
 ota-downloads.nvidia.com
 mobileupdate.nvidia.com
 ota-internal.nvidia.com
@@ -2107,6 +2118,7 @@ speedtest.nextlayer.at
 speedtest.telematica.at
 mapi.speedtest.net
 
+
 #Clash Of Clans
 #################
 
@@ -2276,6 +2288,7 @@ steamcloud-eu-ams.storage.googleapis.com
 store.akamai.steamstatic.com
 apps.wixrestaurants.com
 ding.wix.com
+frog.wix.com
 static.wixstatic.com
 asics.com
 assets.adobedtm.com
@@ -2359,6 +2372,7 @@ www.myuniqa.at
 www.sparkasse.at
 eu-library.klarnaservices.com
 secure.ixopay.com
+gateway.ixopay.com
 
 #Paypal
 ###########
@@ -2556,6 +2570,7 @@ www.druck.at
 a1fhol.lotterien.at
 arstechnica.com
 assets.anyclip.com
+config.anyclip.com
 cdn5.anyclip.com
 trafficmanager.anyclip.com
 assets.mmsrg.com
@@ -2596,3 +2611,7 @@ whatismyipaddress.com
 wallpapercave.com
 urlscan.io
 medias.maisonsdumonde.com
+www.acp-gruppe.com
+fingerprint.com
+form.typeform.com
+nordvpn.com
