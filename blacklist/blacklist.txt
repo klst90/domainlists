@@ -10,7 +10,7 @@
 www.tzurl.org
 tzurl.org
 restrictedapps-pa.googleapis.com
-
+sentry.bergfex.org
 
 #========================================================================
 
