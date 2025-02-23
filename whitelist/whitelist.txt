@@ -38,7 +38,8 @@ d184dfn36gombl.cloudfront.net
 ecx.images-amazon.com
 m.media-amazon.com                         
 threeplr-ab5w7agdemte.api.amazonvideo.com
-threeplr-ab5w7agdemte.api.amazonvideo.com  
+threeplr-ab5w7agdemte.api.amazonvideo.com 
+lvlt.xp-assets.aiv-cdn.net
 
 #Amazon Kindle
 ###############
@@ -1003,17 +1004,19 @@ apisd.ebay.com
 #Cookie Banner
 ###############
 
-#consent-eu.cookiehub.net
-#consent-pref.trustarc.com
-#consent-st.trustarc.com
-#consent.cookiebot.eu
-#consent.gutefrage.net
-#consent.trustarc.com
-#consent.youtube.com
-#consentcdn.cookiebot.com
-#consentcdn.cookiebot.eu
-#cookie-banner.uniqa.at
-#cookiehub.net
+consent-eu.cookiehub.net
+consent-pref.trustarc.com
+consent-st.trustarc.com
+consent.cookiebot.eu
+consent.gutefrage.net
+consent.trustarc.com
+consent.youtube.com
+consentcdn.cookiebot.com
+consentcdn.cookiebot.eu
+consentcdn.cookiebot.com-v1.edgekey.net
+imgsct.cookiebot.com
+cookie-banner.uniqa.at
+cookiehub.net
 a.delivery.consentmanager.net
 cdn.consentmanager.net
 api.usercentrics.eu
@@ -1101,6 +1104,8 @@ www.liqui.io
 myetherwallet.com
 liqui.io
 api.stardust-mainnet.iotaledger.net
+dnsseed.bitcoin.dashjr.org
+dnsseed.bluematt.me
 
 #Web Hoster
 ##############
@@ -1115,6 +1120,7 @@ my.contabo.com
 my.internex.at
 www.digitalocean.com
 www.hostpresto.com
+proxy-ssl.webflow.com
 
 #ORF
 ###########
@@ -1133,6 +1139,7 @@ orf3.mdn.ors.at
 pipe.orf.at
 stm.orf.at
 tvthek.orf.at
+licensing.bitmovin.com
 
 #Deutscher Rundfunk
 #######################
@@ -1158,6 +1165,7 @@ auth.joyn.de
 entitlements-service-alb.prd.platform.s.joyn.de
 www.kabeleins.at
 mira.kabeleins.at
+datalayer.p7s1.io
 
 #ZDF
 ######
@@ -1187,6 +1195,7 @@ zdfvod.akamaized.net
 
 alternate.at
 assets.dm.de
+del.mm.dm.de
 assets.manufactum.de
 ba-computer.at
 bilder.ottoversand.at
@@ -1224,6 +1233,7 @@ www.cyberport.de
 www.dedoles.at
 www.dm-paradiesfoto.at
 www.dm.at
+dmassets.multicdn.cloudinary.com
 www.e-tec.at
 www.interspar.at
 www.loewenzahn.at
@@ -1244,13 +1254,28 @@ www.wienerlinien.at
 www.xxxlutz.at
 www.tchibo.de
 tchibo.de
+tchibo.at
+www.tchibo.at
 www.eduscho.at
+eduscho.at
+crm-cdn.peek-cloppenburg.com
+peek-cloppenburg.com
+www.peek-cloppenburg.com
+h.edge2.salesforce.com
+help.bestsecret.at
+bestsecret.at
+bestsecret.com
+help.bestsecret.at.00d0y000001frqpuau.live.siteforce.com
 
 # Aliexpress
 ######################
 ae04.alicdn.com
 aliexpress.com
 at.alicdn.com
+de.aliexpress.com
+is.alicdn.com
+img.alicdn.com
+
 
 #Rezepte
 ##############
@@ -1316,6 +1341,7 @@ www.bergnews.com
 www.brigitte.de
 www.computerbase.de
 www.computerbild.de
+r2.computerbild.de
 www.der-postillon.com
 www.derstandard.at
 www.diepresse.com
@@ -1326,6 +1352,8 @@ www.oe24.at
 www.stadt-wien.at
 www.wintotal.de
 www.woman.at
+www.der-postillon.com
+der-postillon.com
 
 #Wikis
 ##########
@@ -1395,6 +1423,7 @@ jira.atlassian.com
 kb.kopano.io
 kernel.org
 letsencrypt.org
+r3.o.lencr.org
 libre-software.net
 limesurvey.org
 magiskmanager.com
@@ -1440,6 +1469,24 @@ www.univention.com
 www.univention.de
 www.xrdp.org
 z-hub.io
+www.rethinkdns.com
+rethinkdns.com
+dl.rethinkdns.com
+www.privacy.sexy
+privacy.sexy
+noscript.net
+www.noscript.net
+www.maxmind.com
+device.maxmind.com
+maxmind.com
+dev.maxmind.com
+www.chatgpt.com
+chatgpt.com
+www.chromium.org
+download.wireguard.com
+www.wireguard.com
+wireguard.com
+downloads.codefi.re
 
 #Forum Sites
 ############
@@ -1497,6 +1544,8 @@ www.xda-developers.com
 www.zierfischforum.at
 www.w10privacy.de
 xda-developers.com
+discuss-ec2.96boards.org
+discuss.96boards.org
 
 #Blogs
 ########
@@ -1587,6 +1636,7 @@ www.unixmen.com
 www.whisperedshouts.de
 www.wpbeginner.com
 www.zilowtech.com
+hackershell.noblogs.org
 
 
 #EA Games
@@ -1656,6 +1706,10 @@ www.fanboy.co.nz
 www.void.gr
 yoyo.org
 zeustracker.abuse.ch
+hideyoshi.spamhaus.net
+hosts-file.net
+hostsfile.org
+hostsfile.mine.nu
 
 # Netflix 
 #######################################################
@@ -1664,6 +1718,10 @@ www.netflix.com
 api-global.netflix.com
 appboot.netflix.com
 secure.netflix.com
+
+#DisneyPlus
+#####################
+disney-portal.my.onetrust.com
 
 # Pluto.tv
 #################
@@ -1747,12 +1805,17 @@ cloudflare.com
 cdnjs.cloudflare.com
 a.storyblok.com
 cdn.iubenda.com
+idb.iubenda.com
+cs.iubenda.com
+idb.iubenda.com
 cdn.ravenjs.com
 cdn.ziffstatic.com
+cs22.wpc.v0cdn.net
+res.cloudinary.com
 
 # for video hosting on various news sites
 #########################
-
+dcs-vod.apis.anvato.net
 jwplayer.com
 
 #Movie Metadat
@@ -1845,6 +1908,7 @@ ota-downloads.nvidia.com
 mobileupdate.nvidia.com
 ota-internal.nvidia.com
 ota.nvidia.com
+images.nvidia.com
 
 #Videos on weather.com
 ##########################
@@ -2143,6 +2207,7 @@ auroraoss.com
 auth.uber.com
 booking.com
 bstatic.com #Booking
+link.sg.booking.com
 cdn.fing.io
 cdn.shazam.com
 chat.studo.co
@@ -2163,6 +2228,7 @@ mobile.oebbtickets.at
 newpipe.net
 open.delta.app
 secure-mobile-apps.booking.com
+counters.booking.com
 shazam.com
 static.delta.app
 static.garmincdn.com
@@ -2180,6 +2246,7 @@ adidas.com
 aktienfinder.net
 api.steampowered.com
 apps.wixrestaurants.com
+ding.wix.com
 asics.com
 assets.adobedtm.com
 assets.readthedocs.org
@@ -2198,10 +2265,13 @@ media.readthedocs.org
 niederoesterreich-card.at
 opendns.com
 openspeedtest.com
+fal.openspeedtest.com
 openwrt.org
 pastebin.com
 piholediscourse.b-cdn.net
 pinterest.com
+i.pinimg.com
+i.pinimg.com.gslb.pinterest.com
 readthedocs.io
 readthedocs.org
 recaptcha.net
@@ -2255,8 +2325,8 @@ sso.raiffeisen.at
 www.dad.at
 www.generali.at
 www.myuniqa.at
-
 www.sparkasse.at
+eu-library.klarnaservices.com
 
 #Paypal
 ###########
@@ -2265,7 +2335,11 @@ c.paypal.com
 api-m.paypal.com
 www.paypal.com
 www.paypalobjects.com
+ddbm2.paypal.com
+ddbm2.paypal.com.first-party-js.datadome.co
+ddbm2.paypal.com.first-party-js.datadome.com
 zn1ynnliufrct75cb-paypalxm.siteintercept.qualtrics.com
+lhr.stats.paypal.com
 
 
 #Mail Provider
@@ -2456,3 +2530,29 @@ cdn.teufelaudio.com
 www.wololo.net
 www.wieistmeineip.de
 www.upsellit.com
+www.objectbay.com
+objectbay.com
+www.netgate.com
+netgate.com
+www.lotterien.at
+lotterien.at
+www.lottohelden.de
+lottohelden.de
+www.cyberciti.biz
+www.etoro.com
+www.happyfoto.at
+happyfoto.at
+www.indeedunique.com
+content.invisioncic.com
+coolrom.come
+mail.karriere.at
+www.karriere.at
+karriere.at
+resc.deskline.net
+embed.typeform.com
+fedex.com
+i.wfcdn.de
+j.wfcdn.de
+psp.brewology.com
+px.wa.ui-portal.de
+query1.finance.yahoo.com
