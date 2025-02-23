@@ -109,6 +109,7 @@ gsp1.apple.com
 www.apple.com 
 www.appleiphonecell.com
 www.icloud.com
+s.mzstatic.com
 
 #Apple OSCP
 ################
@@ -561,6 +562,7 @@ clients6.google.com
 gstatic.com
 www.gstatic.com
 fonts.gstatic.com
+toolbox.googleapps.com
 
 #Google Books
 ##############
@@ -1074,6 +1076,7 @@ raw.githubusercontent.com
 account.bitpanda.com
 accounts.binance.com
 api.bitpanda.com
+sbcdn.bitpanda.com
 api.coingecko.com
 api.shimmer.network
 api.stardust-mainnet.iotaledger.net
@@ -1106,6 +1109,8 @@ liqui.io
 api.stardust-mainnet.iotaledger.net
 dnsseed.bitcoin.dashjr.org
 dnsseed.bluematt.me
+seed.bitcoin.sipa.be
+seed.bitcoinstats.com
 
 #Web Hoster
 ##############
@@ -1140,6 +1145,7 @@ pipe.orf.at
 stm.orf.at
 tvthek.orf.at
 licensing.bitmovin.com
+sentry.nousdigital.com
 
 #Deutscher Rundfunk
 #######################
@@ -1166,6 +1172,7 @@ entitlements-service-alb.prd.platform.s.joyn.de
 www.kabeleins.at
 mira.kabeleins.at
 datalayer.p7s1.io
+s.p7s1.io
 
 #ZDF
 ######
@@ -1266,6 +1273,7 @@ help.bestsecret.at
 bestsecret.at
 bestsecret.com
 help.bestsecret.at.00d0y000001frqpuau.live.siteforce.com
+s.shopify.com
 
 # Aliexpress
 ######################
@@ -1480,6 +1488,8 @@ www.maxmind.com
 device.maxmind.com
 maxmind.com
 dev.maxmind.com
+status.maxmind.com
+support.maxmind.com
 www.chatgpt.com
 chatgpt.com
 www.chromium.org
@@ -1487,6 +1497,7 @@ download.wireguard.com
 www.wireguard.com
 wireguard.com
 downloads.codefi.re
+tailscale.com
 
 #Forum Sites
 ############
@@ -1791,6 +1802,8 @@ akamaized.net
 amazonaws.com
 aspnetcdn.com
 s3.amazonaws.com
+s3-1-w.amazonaws.com
+s3-eu-west-1.amazonaws.com
 cdn.cloudflare.net
 cdn.embedly.com
 cdn.optimizely.com 
@@ -1812,6 +1825,7 @@ cdn.ravenjs.com
 cdn.ziffstatic.com
 cs22.wpc.v0cdn.net
 res.cloudinary.com
+settingsfd-geo.trafficmanager.net
 
 # for video hosting on various news sites
 #########################
@@ -1836,6 +1850,7 @@ wp.com
 s0.wp.com
 s1.wp.com
 s2.wp.com
+s.w.org
 
 #No-IP DynDNS
 #################
@@ -2208,6 +2223,7 @@ auth.uber.com
 booking.com
 bstatic.com #Booking
 link.sg.booking.com
+
 cdn.fing.io
 cdn.shazam.com
 chat.studo.co
@@ -2245,8 +2261,13 @@ accounts.pinterest.com
 adidas.com
 aktienfinder.net
 api.steampowered.com
+store.steampowered.com
+steamcommunity.com
+steamcloud-eu-ams.storage.googleapis.com
+store.akamai.steamstatic.com
 apps.wixrestaurants.com
 ding.wix.com
+static.wixstatic.com
 asics.com
 assets.adobedtm.com
 assets.readthedocs.org
@@ -2327,6 +2348,7 @@ www.generali.at
 www.myuniqa.at
 www.sparkasse.at
 eu-library.klarnaservices.com
+secure.ixopay.com
 
 #Paypal
 ###########
@@ -2340,7 +2362,8 @@ ddbm2.paypal.com.first-party-js.datadome.co
 ddbm2.paypal.com.first-party-js.datadome.com
 zn1ynnliufrct75cb-paypalxm.siteintercept.qualtrics.com
 lhr.stats.paypal.com
-
+stats.glb.paypal.com
+t.paypal.com
 
 #Mail Provider
 ################
@@ -2524,6 +2547,7 @@ a1fhol.lotterien.at
 arstechnica.com
 assets.anyclip.com
 cdn5.anyclip.com
+trafficmanager.anyclip.com
 assets.mmsrg.com
 cdn.mxapis.com
 cdn.teufelaudio.com
@@ -2556,3 +2580,5 @@ j.wfcdn.de
 psp.brewology.com
 px.wa.ui-portal.de
 query1.finance.yahoo.com
+static.ubnt.com
+winfuture.de
