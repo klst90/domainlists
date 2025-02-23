@@ -1,6 +1,6 @@
 # Whitelist for Combined Blocklist HOSTS-File
 # This is a whitelist for known an harmless Domains
-# Last Update: 2023-11-29
+# Last Update: 2025-02-23
 ########################################################################
 #Add custom entries here:
 
