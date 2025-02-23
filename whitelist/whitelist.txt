@@ -1113,6 +1113,7 @@ dnsseed.bitcoin.dashjr.org
 dnsseed.bluematt.me
 seed.bitcoin.sipa.be
 seed.bitcoinstats.com
+min-api.cryptocompare.com
 
 #Web Hoster
 ##############
@@ -1177,6 +1178,7 @@ mira.kabeleins.at
 datalayer.p7s1.io
 s.p7s1.io
 vas.live.p7s1video.net
+middleware.p7s1.io
 
 #ZDF
 ######
@@ -1230,6 +1232,7 @@ shop.rewe.de.cdn.cloudflare.net
 shop.wienerlinien.at
 shopshop.reishunger.de
 signin.dm.at
+media.dm-static.com
 tee.at
 webapi.alza.cz
 webserver.sonnentor.com
@@ -1831,6 +1834,7 @@ cdn.ziffstatic.com
 cs22.wpc.v0cdn.net
 res.cloudinary.com
 unpkg.com
+settingsfd-geo.trafficmanager.net
 
 # for video hosting on various news sites
 #########################
@@ -2323,6 +2327,7 @@ www.konami.com
 www.laenderdaten.info
 www.linkedin.com
 at.linkedin.com
+media.licdn.com
 www.niederoesterreich-card.at
 www.oeamtc.at
 www.oetker.at
@@ -2590,3 +2595,4 @@ winfuture.de
 whatismyipaddress.com
 wallpapercave.com
 urlscan.io
+medias.maisonsdumonde.com
