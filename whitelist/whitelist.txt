@@ -1,144 +1,140 @@
-# Whitelist for Combined Blocklist HOSTS-File
-# This is a whitelist for known an harmless Domains
-# Last Update: 2025-02-23
-########################################################################
+# Whitelist for subscribing with DNS blocker like PiHole
+# This is a whitelist for known, harmless and/or needed domains for often used
+# services and apps without tracking or ad-delivering domains.
+# Large companies such as google or amazon can nevertheless create profiles about 
+# your surfing behavior based on the use of their services. This whitelist does not 
+# claim to be complete or correct. Use it at your own risk. 
+# The best way to protect yourself from tracking, profiling and personalized 
+# advertising is to avoid usage of services from Amazon, Google, Facebook and Microsoft.
+#
+# Last Update: 2025-03-01
+#######################################################################################
 #Add custom entries here:
 
 
 
 
 
-
-
-
-
-
-
-
-
-#=======================================================================
+#######################################################################################
+#=============================== Amazon domains ======================================#
 
 #Amazon Websites
 ################
-
-www.amazon.de
-www.amazon.com
-amazon.de
 amazon.com
+amazon.de
 static-eu.payments-amazon.com
+www.amazon.com
+www.amazon.de
 
 #Amazon Prime Video Streaming
-################################
-
+#############################
+(\.|^)api\.amazonvideo\.com$
+*.api.amazonvideo.com  
 a58avoddashs3ww-a.akamaihd.net
-lvlt.xp-assets.aiv-cdn.net
-api.amazon.de 
+ab992t7ewg8z.eu.api.amazonvideo.com  
 api.amazon.com
+api.amazon.de 
 cloudfront.xp-assets.aiv-cdn.net
 d184dfn36gombl.cloudfront.net              
 ecx.images-amazon.com
+lvlt.xp-assets.aiv-cdn.net
 m.media-amazon.com                         
 threeplr-ab5w7agdemte.api.amazonvideo.com
 threeplr-ab5w7agdemte.api.amazonvideo.com 
-ab992t7ewg8z.eu.api.amazonvideo.com  
-*.api.amazonvideo.com  
-(\.|^)api\.amazonvideo\.com$
 
 #Amazon Kindle E-Books
-#########################
-
+######################
 cognito-identity.us-east-1.amazonaws.com
-unagi-na.amazon.com
-ocsp.rootg2.amazontrust.com
 det-ta-g7g.amazon.com
-todo-ta-g7g.amazon.com
 device-messaging-na.amazon.com
+ocsp.rootg2.amazontrust.com
 s3-eu-west-1.amazonaws.com
+todo-ta-g7g.amazon.com
+unagi-na.amazon.com
 us-east-1.amazonaws.com
 
-#FireTV Software Updates
-##############################
-
-softwareupdates.amazon.com
-d3h5bk8iotgjvw.cloudfront.net
-d63r8xi1zu867.cloudfront.net
-d1s31zyz7dcc2d.cloudfront.net
-d3a510xmpll7o6.cloudfront.net
-d21m0ezw6fosyw.cloudfront.net
-d3uf8d0lloeluq.cloudfront.net
-d2n99fpfeqbnhk.cloudfront.net
-mas-ext.amazon.com
+#Amazon FireTV Stick Software Updates
+#####################################
 amazonadsi-a.akamaihd.net
+d1s31zyz7dcc2d.cloudfront.net
+d21m0ezw6fosyw.cloudfront.net
+d2n99fpfeqbnhk.cloudfront.net
+d3a510xmpll7o6.cloudfront.net
+d3h5bk8iotgjvw.cloudfront.net
+d3uf8d0lloeluq.cloudfront.net
+d63r8xi1zu867.cloudfront.net
+mas-ext.amazon.com
 prime.amazon.eu
+softwareupdates.amazon.com
 
 # Amazon API connections (unknown usage)
-##################################
-
+########################################
 api.amazon.com
 n4h9utzk4f.execute-api.us-east-1.amazonaws.com
 
 #Amazon Time Server
-####################
-
+###################
 ftv-smp.ntp-fireos.com
 
-#Apple Music
-################
+#Amazon OCSP
+############
+ocsp.r2m01.amazontrust.com
+ocsp.r2m02.amazontrust.com
+ocsp.r2m03.amazontrust.com
+ocsp.rootca1.amazontrust.com
 
+#=============================== Apple domains ======================================#
+
+#Apple Music (iTunes)
+#####################
+bag.itunes.apple.com
 itunes.apple.com
+play.itunes.apple.com
 s.mzstatic.com
 uts-api.itunes.apple.com
-play.itunes.apple.com
-bag.itunes.apple.com
 
-#Apple ID
-################
-
+#Apple ID login
+###############
 appleid.apple.com
 appleid.apple.com
 appleid.cdn-apple.com
 appleid.cdn-apple.com.akadns.net
 appleid.cdn-apple.com.edgekey.net
 
-
 #iOS Weather app
-#####################
-
-gsp-ssl.ls.apple.com
-gsp-ssl.ls-apple.com.akadns.net
+################
 appleid.apple.com
 ax.phobos.apple.com.edgesuite.net
+gsp-ssl.ls-apple.com.akadns.net
+gsp-ssl.ls.apple.com
 
 #iOS/Apple
-##############
-
+##########
 captive.apple.com 
 gsp1.apple.com 
+s.mzstatic.com
 www.apple.com 
 www.appleiphonecell.com
 www.icloud.com
-s.mzstatic.com
 
-#Apple OSCP
-################
-
+#Apple OSCP server
+##################
 ocsp.apple.com
 
 #Apple TV Video Streaming
-###########################
-
+#########################
 atve.tv.apple.com
 known-issues.apple.com
 mediaservices.cdn-apple.com
 
 #Apple Time Server
-######################
-
+##################
 time.apple.com
 
-#Facebook, Instagram and Facebook Messenger
-#############################################
+#=============================== Facebook domains ======================================#
 
+#Facebook, Instagram and Facebook Messenger
+###########################################
 0-edge-chat.facebook.com
 1-edge-chat.facebook.com
 2-edge-chat.facebook.com
@@ -163,6 +159,7 @@ edge-chat.messenger.com
 edge-chat.messenger.com 
 edge-mqtt.facebook.com
 edge-mqtt.facebook.com 
+eu.api.amazonvideo.com
 external-arn2-1.xx.fbcdn.net
 external-cph2-1.xx.fbcdn.net
 external-lhr0-1.xx.fbcdn.net
@@ -205,6 +202,7 @@ lm.facebook.com
 m.facebook.com
 media4.giphy.com
 messenger.com	
+mqtt-ig-p4.facebook.com
 mqtt-mini.facebook.com
 mqtt.c10r.facebook.com
 mqtt.c10r.facebook.com 
@@ -218,11 +216,13 @@ scontent-lhr3-1.xx.fbcdn.net
 scontent-lhr3-1.xx.fbcdn.net 
 scontent-mia3-1.xx.fbcdn.net 
 scontent-ort2-1.xx.fbcdn.net 
+scontent-vie1-1.xx.fbcdn.net
 scontent.fgdl5-1.fna.fbcdn.net
 scontent.fgdl5-1.fna.fbcdn.net 
 scontent.xx.fbcdn.net
 scontent.xx.fbcdn.net	
 scontent.xx.fbcdn.net 
+star-mini.c10r.facebook.com
 star-mini.c10r.facebook.com	
 star-mini.c10r.facebook.com 
 star.c10r.facebook.com	
@@ -240,14 +240,9 @@ web.facebook.com
 www.facebook.com
 www.facebook.com 
 www.messenger.com
-eu.api.amazonvideo.com
-scontent-vie1-1.xx.fbcdn.net
-star-mini.c10r.facebook.com
-mqtt-ig-p4.facebook.com
 
-#Whatsapp
-#############
-
+#Whatsapp messenger
+###################
 ^((www|(w[0-9]\.)?web|media((-[a-z]{3}|\.[a-z]{4})[0-9]{1,2}-[0-9](\.|-)(cdn|fna))?)\.)?whatsapp\.(com|net)$
 ^whatsapp-cdn-shv-[0-9]{2}-[a-z]{3}[0-9]\.fbcdn\.net$
 e1.whatsapp.net
@@ -266,6 +261,7 @@ e6.whatsapp.net
 e7.whatsapp.net
 e8.whatsapp.net
 e9.whatsapp.net
+g.whatsapp.net
 media-cdg4-1.cdn.whatsapp.net
 media-cdg4-2.cdn.whatsapp.net
 media-lhr8-2.cdn.whatsapp.net
@@ -273,6 +269,7 @@ media-vie1-1.cdn.whatsapp.net
 mmg.whatsapp.net
 mmx-ds.cdn.whatsapp.net
 static.whatsapp.net
+v.whatsapp.net
 w0.whatsapp.com
 w00a133f71kgytxosb-gi3tonrsgq4tenby.snr.whatsapp.net
 w1.web.whatsapp.com
@@ -366,12 +363,11 @@ whatsapp-chatd-edge-shv-01-vie1.facebook.com
 whatsapp.com
 whatsapp.fbsbx.com
 www.wa.me
-v.whatsapp.net
-g.whatsapp.net
+
+#=============================== Google domains ======================================#
 
 #Google Search
 ##############
-
 google.at
 google.de
 google.eu
@@ -382,32 +378,27 @@ www.google.de
 www.google.eu
 
 #Google CDN cache
-####################
-
+#################
 csi.gstatic.com
 
 #Google News 
-################################
-
+############
 news.google.com
 
 #Google Translate
-###############################
-
+#################
 translate.google.com
 translate.googleapis.com
 
 #Google Account Login
-##############################################
-
+#####################
 myaccount.google.com
 accounts.google.at
 accounts.google.com
 oauthaccountmanager.googleapis.com
 
 #Google Maps
-##################
-
+############
 maps.google.at
 maps.google.com
 maps.googleapis.com
@@ -419,22 +410,20 @@ mobilemaps-pa.googleapis.com
 mobilemaps.googleapis.com
 
 #Google Earth
-################### 
-
+############# 
 earth-pa.googleapis.com
 earth.google.com
 kh.google.com
 
-
 #YouTube 
-###################
-
+########
 accounts.youtube.com
 i.ytimg.com
 i1.ytimg.com
 s.youtube.com 
 s.ytimg.com
 s2.youtube.com
+suggestqueries-clients6.youtube.com
 video-stats.l.google.com
 www.youtube-nocookie.com
 youtu.be
@@ -444,11 +433,9 @@ youtube.com
 youtubei.googleapis.com
 yt3.ggpht.com
 ytimg.l.google.com
-suggestqueries-clients6.youtube.com
 
 #Google Play
-##################
-
+############
 market.android.com
 1-market.android.com
 play-lh.googleusercontent.com
@@ -462,8 +449,7 @@ alt5-mtalk.google.com
 alt7-mtalk.google.com
 
 #Android
-#################
-
+########
 android.com
 android.apis.google.com
 android.clients.google.com
@@ -473,7 +459,7 @@ source.android.com
 www.android.com
 
 #Google Time Servers
-######################
+####################
 time.google.com
 time.android.com
 time1.android.com
@@ -488,66 +474,55 @@ time9.android.com
 2.android.pool.ntp.org
 
 #Google Keep (Google notes app)
-#######################################
-
+###############################
 reminders-pa.googleapis.com 
 firestore.googleapis.com
 reminders-pa.googleapis.com
 keep.google.com
 
 #Google Tasks (Google tasks app)
-#######################################
-
+################################
 tasks.google.com
 
 #Kalender (Google calendar app)
-########################################
-
+###############################
 calendar-pa.clients6.google.com
 calendar.google.com
 
 #Gmail (Google Mail)
-#####################
-
+####################
 mail.google.com
 
 #Google Chrome (for download and for updates)
-################################################
-
+#############################################
 dl.google.com
 chrome.google.com
 
 #Android TV 
-###############
-
+###########
 redirector.gvt1.com
 
 #Google Docs (needed to show content on some websites)
-#############################################################
-
+######################################################
 docs.google.com
 
 #Google Drive 
-###############
-
+#############
 drive.google.com
 
 #Google Photos App
-######################
-
+##################
 photos-ugc.l.googleusercontent.com
 photos.app.goo.gl
 photos.google.com
 photos-ugc.l.googleusercontent.com
 
 #Google Groups
-###################
-
+##############
 groups.google.com
 
 #Google Kontakte App
-##################
-
+####################
 contacts.google.com
 people-pa.googleapis.com
 people-pa.clients6.google.com
@@ -557,8 +532,7 @@ peoplestack-pa.googleapis.com
 people-pa.googleapis.com
 
 #Google Messenger
-##################
-
+#################
 messages.android.com
 messages.google.com
 instantmessaging-pa.googleapis.com
@@ -567,26 +541,21 @@ instantmessaging-pa.googleapis.com
 instantmessaging-pa.googleapis.com
 
 #Google Linkshortener
-#######################
-
+#####################
 goo.gl
 
 #Google Videos
-################
-
+##############
 manifest.googlevideo.com
 redirector.googlevideo.com
 video-stats.l.google.com
 
 #Google Pay
-##############
-
+###########
 pay.google.com
 
-
 #and other Google services
-###########################
-
+##########################
 clients1.google.com
 clients2.google.com
 clients4.google.com 
@@ -598,50 +567,47 @@ fonts.gstatic.com
 toolbox.googleapps.com
 
 #Google Books
-##############
-
+#############
 books.google.com
 
 #Google Scholar
-################
-
+###############
 scholar.google.com
 
 #Google hosted sites
-########################
-
+####################
 ghs.google.com
 ghs.googlehosted.com
 blogger.googleusercontent.com
 googleusercontent.com		
 
-#Microsoft Internet Connectovity Check
-#########################################
+#=============================== Microsoft domains ======================================#
 
-msftncsi.com 
-www.msftncsi.com 
+#Microsoft Internet Connectovity Check
+######################################
+ipv6.msftconnecttest.com
 ipv6.msftncsi.com
+ipv6.msftncsi.com
+msftconnecttest.com
+msftncsi.com
+msftncsi.com 
+www.msftconnecttest.com
 www.msftconnecttest.com
 www.msftncsi.com
-ipv6.msftncsi.com
-msftncsi.com
-www.msftconnecttest.com
-ipv6.msftconnecttest.com
-msftconnecttest.com
+www.msftncsi.com 
 
 # Windows 7 update servers
-###########################
-msedge.net
-www.msedge.net
+##########################
 audownload.windowsupdate.nsatc.net
 download.microsoft.com
 ds.download.windowsupdate.com
 fg.ds.b1.download.windowsupdate.com
+msedge.net
 www.download.windowsupdate.com
+www.msedge.net
 
 # Windows 8.1 update servers
-##############################
-
+############################
 au.download.windowsupdate.com
 bg.v4.a.dl.ws.microsoft.com
 bg.v4.emdl.ws.microsoft.com
@@ -657,37 +623,35 @@ fg.v4.download.windowsupdate.com
 v4.download.windowsupdate.com
 
 # Windows 10 update servers
-##############################
-
+###########################
 au.v4.download.windowsupdate.com
 ctldl.windowsupdate.com
+ctldl.windowsupdate.com
 displaycatalog.mp.microsoft.com
+displaycatalog.mp.microsoft.com
+dl.delivery.mp.microsoft.com
 download.windowsupdate.com
 emdl.ws.microsoft.com
 fe2.update.microsoft.com
 fe2.update.microsoft.com.akadns.net
 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net 
 fe3.delivery.mp.microsoft.com
 microsoftwindowsupdate.net
 sls.update.microsoft.com
 sls.update.microsoft.com.akadns.net
+sls.update.microsoft.com.akadns.net 
 statsfe2.update.microsoft.com.akadns.net
 tlu.dl.delivery.mp.microsoft.com
-windowsupdate.com
-sls.update.microsoft.com.akadns.net 
-fe3.delivery.dsp.mp.microsoft.com.nsatc.net 
 tlu.dl.delivery.mp.microsoft.com
-ctldl.windowsupdate.com
-displaycatalog.mp.microsoft.com
-dl.delivery.mp.microsoft.com
+windowsupdate.com
 
 #Microsoft Edge Browser Update
-###############################
-
+##############################
 msedge.api.cdp.microsoft.com
 
 #Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com...)
-##################################################################
+#################################################################
 *.api.microsoftstream.com
 *.azureedge.net
 *.broadcast.skype.com
@@ -810,7 +774,6 @@ www.outlook.com
 
 #Microsoft Store (Windows Store)
 ################################
-
 dl.delivery.mp.microsoft.com 
 geo-prod.do.dsp.mp.microsoft.com 
 displaycatalog.mp.microsoft.com
@@ -818,67 +781,62 @@ dl.delivery.mp.microsoft.com
 geo-prod.do.dsp.mp.microsoft.com
 
 #Xbox Live Messaging
-#####################
-
+####################
 client-s.gateway.messenger.live.com
 
 #Xbox Live Achievements (confirmed by Microsoft)
-##################################################
+################################################
 v10.events.data.microsoft.com
 v20.events.data.microsoft.com
 
 #Store App on Xbox Series X/S
-##########################
-
+#############################
 arc.msn.com
 
 #EA Play on Xbox
-########################
-
+################
 activity.windows.com
 
 #Full Xbox (Live) Functionality
-#################################
-
-xbox.ipv6.microsoft.com 
-device.auth.xboxlive.com 
-www.msftncsi.com 
-title.mgt.xboxlive.com 
-xsts.auth.xboxlive.com 
-title.auth.xboxlive.com 
-ctldl.windowsupdate.com 
-attestation.xboxlive.com 
-xboxexperiencesprod.experimentation.xboxlive.com 
-xflight.xboxlive.com 
-cert.mgt.xboxlive.com 
-xkms.xboxlive.com 
-def-vef.xboxlive.com 
-notify.xboxlive.com 
-help.ui.xboxlive.com 
-licensing.xboxlive.com 
-eds.xboxlive.com 
-www.xboxlive.com 
-v10.vortex-win.data.microsoft.com 
-settings-win.data.microsoft.com
+###############################
 attestation.xboxlive.com
-cert.mgt.xboxlive.com
-device.auth.xboxlive.com
-def-vef.xboxlive.com
-eds.xboxlive.com
-help.ui.xboxlive.com
-licensing.xboxlive.com
-notify.xboxlive.com
-title.auth.xboxlive.com
-title.mgt.xboxlive.com
-xbox.ipv6.microsoft.com
-xflight.xboxlive.com
-xkms.xboxlive.com
-xsts.auth.xboxlive.com
+attestation.xboxlive.com 
 catalog.gamepass.com
+cert.mgt.xboxlive.com
+cert.mgt.xboxlive.com 
+ctldl.windowsupdate.com 
+def-vef.xboxlive.com
+def-vef.xboxlive.com 
+device.auth.xboxlive.com
+device.auth.xboxlive.com 
+eds.xboxlive.com
+eds.xboxlive.com 
+help.ui.xboxlive.com
+help.ui.xboxlive.com 
+licensing.xboxlive.com
+licensing.xboxlive.com 
+notify.xboxlive.com
+notify.xboxlive.com 
+settings-win.data.microsoft.com
+title.auth.xboxlive.com
+title.auth.xboxlive.com 
+title.mgt.xboxlive.com
+title.mgt.xboxlive.com 
+v10.vortex-win.data.microsoft.com 
+www.msftncsi.com 
+www.xboxlive.com 
+xbox.ipv6.microsoft.com
+xbox.ipv6.microsoft.com 
+xboxexperiencesprod.experimentation.xboxlive.com 
+xflight.xboxlive.com
+xflight.xboxlive.com 
+xkms.xboxlive.com
+xkms.xboxlive.com 
+xsts.auth.xboxlive.com
+xsts.auth.xboxlive.com 
 
 #Bing
-#######
-
+#####
 bing.at
 bing.de
 bing.com
@@ -890,27 +848,26 @@ www.bing.net
 officespeech.platform.bing.com
 
 #Bing Maps Platform
-####################
-
-virtualearth.net
+###################
+dev.virtualearth.net
 dev.virtualearth.net 
+ecn.dev.virtualearth.net
 ecn.dev.virtualearth.net 
+t0.ssl.ak.dynamic.tiles.virtualearth.net
 t0.ssl.ak.dynamic.tiles.virtualearth.net 
 t0.ssl.ak.tiles.virtualearth.net
-t0.ssl.ak.dynamic.tiles.virtualearth.net
 t0.ssl.ak.tiles.virtualearth.net
-dev.virtualearth.net
-ecn.dev.virtualearth.net
+virtualearth.net
 
 #Microsoft Time Servers
 #######################
-
 time.windows.com
 ntp.msn.com
 
-#Mozilla Websites
-#######################
+#=============================== Mozilla domains ======================================#
 
+#Mozilla Websites
+#################
 archive.mozilla.org
 blog.mozilla.com
 blog.mozilla.org
@@ -921,19 +878,18 @@ discourse.mozilla.org
 docs.services.mozilla.com
 download.mozilla.org
 forums.mozilla.org
+ftp.mozilla.org
 git.mozilla.org
 mozilla.com
 mozilla.org
 pastebin.mozilla.org
 support.mozilla.org
 wiki.mozilla.org
-www.mozilla.org
-ftp.mozilla.org
 www.firefox.com
+www.mozilla.org
 
 #Websites for Firefox Addons, Themes, etc.
-########################################
-
+##########################################
 addons.mozilla.org
 extensions.mozilla.org
 color.r53-2.services.mozilla.com
@@ -941,13 +897,11 @@ color.firefox.com
 plugins.mozilla.org
  
 #Captive Portal Detection
-##########################
-
+#########################
 detectportal.firefox.com 
 
 #Firefox Sync
-###############
-
+#############
 accounts.firefox.com
 graphql.accounts.firefox.com
 profile.accounts.firefox.com 
@@ -957,32 +911,29 @@ oauth.accounts.firefox.com
 services.addons.mozilla.org
 
 #Update for tracking protection 
-################################
-
+###############################
 tracking-protection.cdn.mozilla.net
 shavar.services.mozilla.com
 
 #Firefox Remote Settings (e.g. Certificate revocation)
-#####################################################
- 
+######################################################
 firefox.settings.services.mozilla.com
 
 #Check for signatures (Addons, Themes etc.)
-##################################################
-
+###########################################
 content-signature-2.cdn.mozilla.net
 
 #Updates for Firfeox Addons, themes, usw.
-###################################
-
+#########################################
 services.addons.mozilla.org
 prod.balrog.prod.cloudops.mozgcp.net
 prod.refractr.mozit.cloud
 addons.update.mozilla.org
 
-#Spotify
-####################
+#=============================== Streaming platforms ======================================#
 
+#Spotify
+########
 accounts.scdn.co
 accounts.spotify.com
 api-tv.spotify.com
@@ -1007,31 +958,143 @@ login5.spotify.com
 scdn.co
 seed-mix-image.spotifycdn.com
 
-#Austrian Government Sites
-###########################
+#ORF Streaming
+##############
+api-tvthek.orf.at
+assets.orf.at
+drm.ors.at
+orf.at
+orf1-restart.mdn.ors.at
+orf1.mdn.ors.at
+orf2-restart.mdn.ors.at
+orf2.mdn.ors.at
+orf2n.mdn.ors.at
+orf3-restart.mdn.ors.at
+orf3.mdn.ors.at
+pipe.orf.at
+stm.orf.at
+tvthek.orf.at
+licensing.bitmovin.com
+sentry.nousdigital.com
 
-finanzonline.bmf.gv.at
-help.gv.at
-sso.sozialversicherung.at
-www.help.gv.at
-oesterreich.gv.at
-eid.oesterreich.gv.at
-bmf.gv.at
+#Deutscher Rundfunk
+###################
+api.ardmediathek.de
+api-cdn.arte.tv
+api.arte.tv
+manifest.arte.tv
+ndr.de
+www.ndr.de
+www.3sat.de
+www.arte.tv
 
+#Servus TV
+############
+api.redbull.tv
 
-#Filesharing
+#Joyn
+#####
+api.joyn.de
+api.vod-prd.s.joyn.de
+auth.joyn.de
+cmp.p7s1.io
+component.player.p7s1.io
+config.player.p7s1.io
+datalayer.p7s1.io
+entitlements-service-alb.prd.platform.s.joyn.de
+middleware.p7s1.io
+mira.kabeleins.at
+oasis-player.p7s1.io
+player-feedback.p7s1video.net
+s.p7s1.io
+vas.live.p7s1video.net
+www.kabeleins.at
+
+#ZDF
+####
+abgroup.zdf.de
+api-settings.zdf.de
+api.zdf.de
+atinternet.zdf.de
+cmp2.zdf.de
+epg-image.zdf.de
+ngp.zdf.de
+nrodlzdf-a.akamaihd.net
+nrodlzdf-a.akamaihd.net.edgesuite.net
+ssl.zdf.de
+ssl.zdf.de.edgekey.net
+tvdlzdf-a.akamaihd.net
+www.zdf.at
+www.zdf.de
+zdf-cdn.live.cellular.de
+zdf.de
+zdfvod-pckgr.akamaized.net
+zdfvod-rwrtr.akamaized.net
+zdfvod.akamaized.net
+
+# Netflix 
+#########
+www.netflix.com
+api-global.netflix.com
+appboot.netflix.com
+secure.netflix.com
+
+#DisneyPlus
+###########
+disney-portal.my.onetrust.com
+
+# Pluto.tv
+##########
+images.pluto.tv
+stitcher.pluto.tv
+siloh.pluto.tv
+silo.pluto.tv
+cdn-mobile.api.pluto.tv
+api.pluto.tv
+players.pluto.tv
+
+#Movie Metadata
+###############
+themoviedb.com
+thetvdb.com
+opensubtitles.org
+www.opensubtitles.org
+
+#Plex Domains
 #############
+plex.tv 
+tvdb2.plex.tv 
+pubsub.plex.bz 
+proxy.plex.bz 
+proxy02.pop.ord.plex.bz 
+cpms.spop10.ams.plex.bz 
+meta-db-worker02.pop.ric.plex.bz 
+meta.plex.bz 
+tvthemes.plexapp.com.cdn.cloudflare.net 
+tvthemes.plexapp.com 
+106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services meta.plex.tv 
+cpms35.spop10.ams.plex.bz 
+proxy.plex.tv 
+metrics.plex.tv 
+pubsub.plex.tv 
+status.plex.tv 
+www.plex.tv 
+node.plexapp.com 
+nine.plugins.plexapp.com 
+staging.plex.tv 
+app.plex.tv 
+o1.email.plex.tv  
+o2.sg0.plex.tv 
+dashboard.plex.tv
+gravatar.com # custom login pictures
+thetvdb.com # metadata for tv series
+themoviedb.com # metadata for movies
+chtbl.com # iHeart radio/Plex Podcast
 
-wetransfer.com
-uploaded.net
-uploaded.to
-zippyshare.com
-imgur.com
-share-online.biz
+#=============================== Online shops ======================================#
 
 #Ebay
-#########
-
+#####
 www.ebay-kleinanzeigen.de
 www.ebay.at
 www.ebay.com
@@ -1040,9 +1103,156 @@ ebay.com
 ebay.de
 apisd.ebay.com
 
-#Cookie Banner
+#DM Online Shop
 ###############
+assets.dm.de
+del.mm.dm.de
+media.dm-static.com
+signin.dm.at
+media.dm-static.com
+www.dm.at
+dmassets.multicdn.cloudinary.com
+www.dm-paradiesfoto.at
 
+#Booking.com
+############
+account.booking.com
+booking.com
+bstatic.com #Booking
+link.sg.booking.com
+mobile-apps.booking.com
+secure-mobile-apps.booking.com
+counters.booking.com
+www.booking.com
+
+#Bestsecrets
+############
+help.bestsecret.at
+bestsecret.at
+bestsecret.com
+help.bestsecret.at.00d0y000001frqpuau.live.siteforce.com
+
+# Aliexpress
+############
+ae04.alicdn.com
+aliexpress.com
+at.alicdn.com
+de.aliexpress.com
+is.alicdn.com
+img.alicdn.com
+g.alicdn.com
+o.alicdn.com
+
+#Other Online Shops
+###################
+alternate.at
+assets.manufactum.de
+ba-computer.at
+bilder.ottoversand.at
+cdn.alza.cz
+cdn1.interspar.at
+conrad.at
+crm-cdn.peek-cloppenburg.com
+cyberport.de
+e-tec.at
+eduscho.at
+h.edge2.salesforce.com
+media.moemax.com
+media.xxxlutz.com
+mylemon.at
+ol.nice-cdn.com
+ottoversand.at
+peek-cloppenburg.com
+picture.bestsecret.com
+s.shopify.com
+shop-apotheke.at
+shop.lego.com
+shop.oebbtickets.at
+shop.rewe-static.de
+shop.rewe.de
+shop.rewe.de.cdn.cloudflare.net
+shop.wienerlinien.at
+shopshop.reishunger.de
+tchibo.at
+tchibo.de
+tee.at
+url2600.vitaminexpress.org
+webapi.alza.cz
+webserver.sonnentor.com
+www.alternate.at
+www.alternate.at
+www.ba-computer.at
+www.ba-computer.at
+www.bestsecret.com
+www.bike-components.de
+www.conrad.at
+www.cyberport.de
+www.dedoles.at
+www.e-tec.at
+www.eduscho.at
+www.interspar.at
+www.loewenzahn.at
+www.manufactum.at
+www.medistore.at
+www.moemax.at
+www.mylemon.at
+www.ottoversand.at
+www.peek-cloppenburg.com
+www.reishunger.de
+www.rewe.de
+www.roastmarket.de
+www.shop-apotheke.at
+www.sonnentor.com
+www.tchibo.at
+www.tchibo.de
+www.tee.at
+www.thomas-krenn.com
+www.tischmoebel.de
+www.wienerlinien.at
+www.xxxlutz.at
+
+#Willhaben
+##########
+cache.willhaben.at
+autocomplete.willhaben.at
+api.willhaben.at
+www.willhaben.at
+xmpp.messaging.advgo.net
+knocker.advgo.net
+willhaben.at
+sso.willhaben.at
+faast.advgo.net
+widget.messaging.advgo.net
+rt-ws.messaging.advgo.net
+
+#Geizhals
+#########
+api.geizhals.net
+gzhls.at
+geizhals.at
+
+#Austrian Post
+##############
+assets.post.at
+api.post.at
+api.www.post.at
+login.post.at
+post.at
+www.post.at
+
+#=============================== Website components and internet ressources ======================================#
+
+#Filesharing
+############
+wetransfer.com
+uploaded.net
+uploaded.to
+zippyshare.com
+imgur.com
+share-online.biz
+
+#Cookie Banner
+##############
 consent-eu.cookiehub.net
 consent-pref.trustarc.com
 consent-st.trustarc.com
@@ -1071,10 +1281,8 @@ time.akamai.com
 time.izatcloud.net
 pool.ntp.org
 
-
 #OpenSource Collaboration 
-###########################
-
+#########################
 gist.github.com
 gist.githubusercontent.com
 github.com
@@ -1091,54 +1299,8 @@ raw.githubusercontent.com
 raw.github.com
 raw.githubusercontent.com
 
-#Trusted crypto exchanges and wallets
-####################################
-
-account.bitpanda.com
-accounts.binance.com
-api.bitpanda.com
-sbcdn.bitpanda.com
-socket.bitpanda.com
-web.bitpanda.com
-api.coingecko.com
-api.shimmer.network
-api.stardust-mainnet.iotaledger.net
-app.bake.io
-app.cakedefi.com
-bilaxy.com
-binance.com
-bitpanda.at
-bitpanda.com
-bittrex.com
-blockchair.com
-cdn.bitpanda.com
-coinfinity.co
-coinmarketcap.com
-dl.firefly.iota.org
-etherscan.io
-global.bittrex.com
-hitbtc.com
-iota-node.tanglebay.com
-shimmer-node.tanglebay.com
-socket-v3.bittrex.com
-www.binance.com
-www.bitcoin.de
-www.bitpanda.com
-www.kucoin.com
-yobit.net
-www.liqui.io
-myetherwallet.com
-liqui.io
-api.stardust-mainnet.iotaledger.net
-dnsseed.bitcoin.dashjr.org
-dnsseed.bluematt.me
-seed.bitcoin.sipa.be
-seed.bitcoinstats.com
-min-api.cryptocompare.com
-
 #Webhoster
-##############
-
+##########
 accounts.hetzner.com
 all-inkl.com
 assets.digitalocean.com
@@ -1152,594 +1314,8 @@ www.hostpresto.com
 proxy-ssl.webflow.com
 web.jimdo.com
 
-#ORF Streaming
-###############
-
-api-tvthek.orf.at
-assets.orf.at
-drm.ors.at
-orf.at
-orf1-restart.mdn.ors.at
-orf1.mdn.ors.at
-orf2-restart.mdn.ors.at
-orf2.mdn.ors.at
-orf2n.mdn.ors.at
-orf3-restart.mdn.ors.at
-orf3.mdn.ors.at
-pipe.orf.at
-stm.orf.at
-tvthek.orf.at
-licensing.bitmovin.com
-sentry.nousdigital.com
-
-#Deutscher Rundfunk
-#######################
-
-api.ardmediathek.de
-api-cdn.arte.tv
-api.arte.tv
-manifest.arte.tv
-ndr.de
-www.ndr.de
-www.3sat.de
-www.arte.tv
-
-#Servus TV
-############
-api.redbull.tv
-
-#Joyn
-###########
-api.joyn.de
-api.vod-prd.s.joyn.de
-auth.joyn.de
-entitlements-service-alb.prd.platform.s.joyn.de
-www.kabeleins.at
-mira.kabeleins.at
-datalayer.p7s1.io
-s.p7s1.io
-vas.live.p7s1video.net
-middleware.p7s1.io
-cmp.p7s1.io
-component.player.p7s1.io
-config.player.p7s1.io
-oasis-player.p7s1.io
-player-feedback.p7s1video.net
-
-#ZDF
-######
-
-abgroup.zdf.de
-api-settings.zdf.de
-api.zdf.de
-atinternet.zdf.de
-cmp2.zdf.de
-epg-image.zdf.de
-ngp.zdf.de
-nrodlzdf-a.akamaihd.net
-nrodlzdf-a.akamaihd.net.edgesuite.net
-ssl.zdf.de
-ssl.zdf.de.edgekey.net
-tvdlzdf-a.akamaihd.net
-www.zdf.at
-www.zdf.de
-zdf-cdn.live.cellular.de
-zdf.de
-zdfvod-pckgr.akamaized.net
-zdfvod-rwrtr.akamaized.net
-zdfvod.akamaized.net
-
-#Booking.com
-############
-account.booking.com
-booking.com
-bstatic.com #Booking
-link.sg.booking.com
-mobile-apps.booking.com
-secure-mobile-apps.booking.com
-counters.booking.com
-www.booking.com
-
-
-#DM Online Shop
-######################
-alternate.at
-assets.dm.de
-del.mm.dm.de
-media.dm-static.com
-signin.dm.at
-media.dm-static.com
-www.dm.at
-dmassets.multicdn.cloudinary.com
-www.dm-paradiesfoto.at
-
-#Online Shops
-##################
-
-
-assets.manufactum.de
-ba-computer.at
-bilder.ottoversand.at
-cdn.alza.cz
-cdn1.interspar.at
-conrad.at
-cyberport.de
-e-tec.at
-
-media.moemax.com
-media.xxxlutz.com
-mylemon.at
-ottoversand.at
-picture.bestsecret.com
-shop-apotheke.at
-shop.lego.com
-shop.oebbtickets.at
-shop.rewe-static.de
-shop.rewe.de
-shop.rewe.de.cdn.cloudflare.net
-shop.wienerlinien.at
-shopshop.reishunger.de
-
-tee.at
-webapi.alza.cz
-webserver.sonnentor.com
-www.alternate.at
-www.alternate.at
-www.ba-computer.at
-www.ba-computer.at
-www.bestsecret.com
-www.bike-components.de
-www.conrad.at
-www.cyberport.de
-www.dedoles.at
-
-
-www.e-tec.at
-www.interspar.at
-www.loewenzahn.at
-www.manufactum.at
-www.medistore.at
-www.moemax.at
-www.mylemon.at
-www.ottoversand.at
-www.reishunger.de
-www.rewe.de
-www.roastmarket.de
-www.shop-apotheke.at
-www.sonnentor.com
-www.tee.at
-www.thomas-krenn.com
-www.tischmoebel.de
-www.wienerlinien.at
-www.xxxlutz.at
-www.tchibo.de
-tchibo.de
-tchibo.at
-www.tchibo.at
-www.eduscho.at
-eduscho.at
-crm-cdn.peek-cloppenburg.com
-peek-cloppenburg.com
-www.peek-cloppenburg.com
-h.edge2.salesforce.com
-
-s.shopify.com
-url2600.vitaminexpress.org
-ol.nice-cdn.com
-
-#Bestsecrets
-################
-help.bestsecret.at
-bestsecret.at
-bestsecret.com
-help.bestsecret.at.00d0y000001frqpuau.live.siteforce.com
-
-# Aliexpress
-######################
-ae04.alicdn.com
-aliexpress.com
-at.alicdn.com
-de.aliexpress.com
-is.alicdn.com
-img.alicdn.com
-g.alicdn.com
-o.alicdn.com
-
-#Rezepte
-##############
-
-assets.ichkoche.at
-brotwein.net
-eatsmarter.de
-emmikochteinfach.de
-firechefs.de
-footlocker.com
-gutekueche.at
-ikea.com
-kochkarussell.com
-mediamarkt.at
-mediamarkt.de
-static.ichkoche.at
-thomassixt.de
-www.falstaff.at
-www.gutekueche.at
-www.ichkoche.at
-www.seifen-rezepte.de
-www.steirische-spezialitaeten.at
-www.tasteoftravel.at
-
-#Nachrichten
-##############
-
-apa.at
-bbc.com
-bloomberg.com
-cnn.com
-der-postillon.com
-derstandard.at
-diepresse.com
-dietagespresse.com
-diginews.apa.at
-epaper-oesterreich.at
-epaper.kurier.at
-faz.net
-forbes.com
-heise.de
-heute.at
-img.diepresse.com
-krone.at
-kurier.at
-media.diepresse.com
-oe24.at
-oesterreich.diginews.apa.at
-php.heute.at
-pics.computerbase.de
-praxistipps.chip.de
-praxistipps.focus.de
-t-online.at
-t-online.de
-taz.de
-vcdn.bergfex.at
-vice.com
-vox.com
-wetter.de
-wintotal.de
-www.bergfex.at
-www.bergnews.com
-www.brigitte.de
-www.computerbase.de
-www.computerbild.de
-r2.computerbild.de
-www.der-postillon.com
-www.derstandard.at
-www.diepresse.com
-www.faz.net
-www.heute.at
-www.krone.at
-www.oe24.at
-www.stadt-wien.at
-www.wintotal.de
-www.woman.at
-www.der-postillon.com
-der-postillon.com
-
-#Wikis
-##########
-
-carddex.net
-de.wikihow.com
-de.wikipedia.org
-dokuwiki.nausch.org
-fandom.com
-minecraft-de.gamepedia.com
-minecraft.fandom.com
-services.fandom.com
-wiki.benno-mailarchiv.de
-wiki.debian.org
-wiki.linuxmuster.net
-wiki.pratznschutz.com
-wiki.z-hub.io
-www.carddex.net
-www.db.yugioh-card.com
-www.fandom.com
-www.synology-wiki.de
-www.wikihow.com
-www.wikihow.de
-www.wikipedia.com
-www.wikipedia.org
-www.yugioh-card.com
-www.yugioh-wiki.de
-yugioh-wiki.de
-
-#Software
-###########
-
-advanced-ip-scanner.com
-api-private.atlassian.com
-api.atlassian.com
-appcenter.software-univention.de
-assets.nagios.com
-assets.plesk.com
-autoupdate7.synology.com
-backoffice6.citavi.com
-ccleaner.com
-cdn.discordapp.com
-certbot.eff.org
-citaviweb.citavi.com
-client.teamviewer.com
-collaboraoffice.com
-confluence.atlassian.com
-confluence.prd.cst.atlassian.com
-dataupdate7.synology.com
-debian.map.fastlydns.net
-debian.org
-discord.com
-dl.discordapp.net
-docs.nextcloud.com
-exchange.icinga.com
-exchange.nagios.org
-f-droid.org
-forge.univention.org
-freebsd.org
-fw-update.ubnt.com
-global.download.synology.com
-grafana.com
-grafana.tt.omtrdc.net
-guacamole.apache.org
-icinga.com
-jira.atlassian.com
-kb.kopano.io
-kernel.org
-letsencrypt.org
-r3.o.lencr.org
-libre-software.net
-limesurvey.org
-magiskmanager.com
-manual.limesurvey.org
-moneymanagerex.org
-multicraft.org
-netbsd.org
-nextcloud.com
-openbsd.org
-packages.element.io
-packages.synocommunity.com
-pfsense.org
-pkgautoupdate.synologyupdate.com
-pkgupdate7.synology.com
-portal.kopano.com
-redhat.com
-repo.zabbix.com
-router13.teamviewer.com
-router15.teamviewer.com
-teamviewer.com
-update.cdburnerxp.org
-update.cdburnerxp.se
-update7.synology.com
-updates.discord.com
-updates.nextcloud.org
-updates.software-univention.de
-videolan.org
-wacom.com
-winscp.net
-www.advanced-ip-scanner.com
-www.atlassian.com
-www.ccleaner.com
-www.citavi.com
-www.collaboraoffice.com
-www.debian.org
-www.minecraft.net
-www.mysql.com
-www.partitionwizard.com
-www.seafile.com
-www.solvusoft.com
-www.synology.com
-www.univention.com
-www.univention.de
-www.xrdp.org
-z-hub.io
-www.rethinkdns.com
-rethinkdns.com
-dl.rethinkdns.com
-www.privacy.sexy
-privacy.sexy
-noscript.net
-www.noscript.net
-www.maxmind.com
-device.maxmind.com
-maxmind.com
-dev.maxmind.com
-status.maxmind.com
-support.maxmind.com
-static.maxmind.com
-www.chatgpt.com
-chatgpt.com
-www.chromium.org
-download.wireguard.com
-www.wireguard.com
-wireguard.com
-downloads.codefi.re
-tailscale.com
-
-#Forum Sites
-############
-
-administrator.de
-android-hilfe.de
-androidforums.com
-answers.com
-answers.microsoft.com
-ask.fm
-askubuntu.com
-b2discourse.b-cdn.net
-b2discourse.pi-hole.net
-discourse-cdn.pi-hole.net
-discourse.pi-hole.net
-elongated-coin.de
-forum.golem.de
-forum.howtoforge.com
-forum.kopano.io
-forum.xda-developers.com
-forums.appleinsider.com
-forums.geforce.com
-forums.ilounge.com
-forums.limesurvey.org
-forums.linuxmint.com
-forums.macrumors.com
-forums.malwarebytes.com
-forums.mozillazine.org
-forums.pcsx2.net
-forums.plex.tv
-forums.roku.com
-forums.sonarr.tv
-forums.techguy.org
-forums.tomshardware.com
-forums.whirlpool.net.au
-haustechnikdialog.de
-help.nextcloud.com
-help.univention.com
-serverfault.com
-stackexchange.com
-stackoverflow.com
-steamcommunity.com
-superuser.com
-ubuntuforums.org
-unix.stackexchange.com
-www.android-hilfe.de
-www.digital-eliteboard.com
-www.elongated-coin.de
-www.gutefrage.net
-www.haustechnikdialog.de
-www.numismatikforum.de
-www.numispedia.de
-www.stackoverflow.com
-www.xda-developers.com
-www.zierfischforum.at
-www.w10privacy.de
-xda-developers.com
-discuss-ec2.96boards.org
-discuss.96boards.org
-
-#Blogs
-########
-
-bencane.com
-blog.doenselmann.com
-blog.logrocket.com
-blog.sleeplessbeastie.eu
-blog.whabash.com
-blog.mozilla.com
-blog.mozilla.org
-blog.whabash.com
-computingforgeeks.com
-crycode.de
-der-linux-admin.de
-deskmodder.de
-dev.mysql.com
-developer.android.com
-docs.hardentheworld.org
-fitness-schmiede.at
-fribeiro.org
-geekflare.com
-geekrewind.com
-harden-the-world.readthedocs.org
-hobby-kosmetik.de
-itechlounge.net
-kifarunix.com
-linustechtips.com
-linuxconfig.org
-linuxincluded.com
-markus-blog.de
-medium.com
-memodaille.com
-nutripassion.de
-olionatura.de
-pennypresses.net
-pixelnostalgie.de
-privacy-handbuch.de
-security-blog.eu
-services.benno-mailarchiv.de
-spiceworks.com
-thomas-leister.de
-tweaking4all.com
-utopia.de
-webserver.linuxmuster.net
-websiteforstudents.com
-windowsbulletin.com
-www.adlerweb.info
-www.allerstorfer.at
-www.biogaertner.at
-www.blogheim.at
-www.claudiokuenzler.com
-www.computerhope.com
-www.ctrl.blog
-www.cyberciti.biz
-www.deskmodder.de
-www.dwarmstrong.org
-www.electrictoolbox.com
-www.everythingcli.org
-www.fortynorthsecurity.com
-www.hobby-kosmetik.de
-www.howtoforge.com
-www.invenios.de
-www.itechlounge.net
-www.itrig.de
-www.linhub.de
-www.linode.com
-www.linux.com
-www.linuxbabe.com
-www.linuxincluded.com
-www.linuxmuster.net
-www.lostsaloon.com
-www.netways.de
-www.olionatura.de
-www.pixelcontainer.net
-www.privacy-handbuch.de
-www.quetschmuenzen.de
-www.security-blog.eu
-www.servus.com
-www.shellbefehle.de
-www.systemtek.co.uk
-www.talerbox.com
-www.tecmint.com
-www.thomashorn.eu
-www.tina.fitness
-www.tweaking4all.com
-www.unixmen.com
-www.whisperedshouts.de
-www.wpbeginner.com
-www.zilowtech.com
-hackershell.noblogs.org
-
-
-#EA Games
-#############
-
-ea.com
-proxy.novafusion.ea.com
-
-#Lenovo
-##################
-
-cms.csw.lenovo.com
-cms.csw.lenovo.com.edgekey.net
-cms.csw.lenovo.com.edgekey.net.globalredir.akadns.net
-download.lenovo.com
-download.lenovo.com.akadns.net
-download.lenovo.com.edgekey.net
-download.lenovo.com.edgekey.net.globalredir.akadns.net
-filedownload-csw-lenovo.com
-filedownload.csw.lenovo.com
-filedownload.lenovo.com
-filedownload.lenovo.com.akadns.net
-msg.csw.lenovo.com
-supportapi.lenovo.com
-supportapi.lenovo.com.edgekey.net
-vantage-csw-lenovo.com
-vantage.csw.lenovo.com
-
-# Host files / Blocklists
-##########################
-
+# Host files and blocklists
+###########################
 adaway.org
 adblock.dk
 adblock.ee
@@ -1784,56 +1360,8 @@ hostsfile.org
 cloudflare-dns.com
 hostsfile.mine.nu
 
-# Netflix 
-#######################################################
-
-www.netflix.com
-api-global.netflix.com
-appboot.netflix.com
-secure.netflix.com
-
-#DisneyPlus
-#####################
-disney-portal.my.onetrust.com
-
-# Pluto.tv
-#################
-
-images.pluto.tv
-stitcher.pluto.tv
-siloh.pluto.tv
-silo.pluto.tv
-cdn-mobile.api.pluto.tv
-api.pluto.tv
-players.pluto.tv
-
-# Roku TV apps
-###############################################
-
-dcs-vod.apis.anvato.net
-z.cdn.turner.com
-manifest.auditude.com
-cwtv-mrss-akamai.cwtv.com
-cwtv-prod-elb.digitalsmiths.net
-redirector.googlevideo.com
-
-# Samsung TV's Amazon Prime Video app
-######################################
-
-time.samsungcloudsolution.com
-
-# Samsung smart TV's network issue
-###################################
-
-cdn.samsungcloudsolution.com
-
-# LG Firmware Updates
-####################################
-acdnus.lge.com
-
 # URL shorteners
-###################
-
+################
 t.ly
 adf.ly
 www.adf.ly
@@ -1846,18 +1374,8 @@ amzn.to
 amzn.com
 tinyurl.com
 
-# Adobe licence verification endpoints
-######################################
-
-lm.licenses.adobe.com
-activate.adobe.com 
-ereg.adobe.com 
-ereg.wip3.adobe.com
-activation.adobedtm.com
-
 #Content Delivery Networks
 ############################
-
 akamaihd.net
 akamaitechnologies.com
 akamaized.net
@@ -1892,7 +1410,7 @@ unpkg.com
 settingsfd-geo.trafficmanager.net
 
 # Embedded video players on various sites
-##########################################
+#########################################
 dcs-vod.apis.anvato.net
 jwplayer.com
 fresnel.vimeocdn.com
@@ -1902,294 +1420,12 @@ cdn5.anyclip.com
 trafficmanager.anyclip.com
 player.anyclip.com
 
-#Movie Metadata
-###################
-
-themoviedb.com
-thetvdb.com
-opensubtitles.org
-www.opensubtitles.org
-
-#Wordpress
-#############
-
-wordpress.com
-www.wordpress.com
-lb.wordpress.com
-wp.com
-s0.wp.com
-s1.wp.com
-s2.wp.com
-s.w.org
-
-#No-IP DynDNS
-#################
-
-no-ip.com
-www.no-ip.com
-dynupdate.no-ip.com
-
-#Giphy
-###########
-
-media0.giphy.com
-media1.giphy.com
-media2.giphy.com
-media3.giphy.com
-media.tenor.co
-
-#Plex Domains
-################################
-
-plex.tv 
-tvdb2.plex.tv 
-pubsub.plex.bz 
-proxy.plex.bz 
-proxy02.pop.ord.plex.bz 
-cpms.spop10.ams.plex.bz 
-meta-db-worker02.pop.ric.plex.bz 
-meta.plex.bz 
-tvthemes.plexapp.com.cdn.cloudflare.net 
-tvthemes.plexapp.com 
-106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services meta.plex.tv 
-cpms35.spop10.ams.plex.bz 
-proxy.plex.tv 
-metrics.plex.tv 
-pubsub.plex.tv 
-status.plex.tv 
-www.plex.tv 
-node.plexapp.com 
-nine.plugins.plexapp.com 
-staging.plex.tv 
-app.plex.tv 
-o1.email.plex.tv  
-o2.sg0.plex.tv 
-dashboard.plex.tv
-gravatar.com # custom login pictures
-thetvdb.com # metadata for tv series
-themoviedb.com # metadata for movies
-chtbl.com # iHeart radio/Plex Podcast
-
-#Dropbox
-##############
-
-dl.dropboxusercontent.com
-dl.dropboxusercontent.com 
-dl.dropbox.com
-dl.dropboxusercontent.com
-ns1.dropbox.com 
-ns2.dropbox.com
-        
-#NVIDIA GeForce Experience (needed for driver updates)
-#########################################################
-
-events.gfe.nvidia.com
-gfwsl.geforce.com
-
-# Nvidia updates
-########################
-nvidia.com
-ota-downloads.nvidia.com
-mobileupdate.nvidia.com
-ota-internal.nvidia.com
-ota.nvidia.com
-images.nvidia.com
-
 #Videos on weather.com
-##########################
-
+######################
 v.w-x.co
 
-#Moto phones OS updates
-#########################
-
-appspot-preview.l.google.com
-
-#Grand Theft Auto V Online PC
-#######################################
-
-prod.telemetry.ros.rockstargames.com		
-
-#Epic Games Store (required to make a purchase on the website)
-#################################################################
-
-tracking.epicgames.com
-
-#Origin (Savegame-Sync)
-#########################
-
-cloudsync-prod.s3.amazonaws.com
-
-#Sony Playstation 3 Updates
-#################################
-
-a0.ww.np.dl.playstation.net
-a01.cdn.update.playstation.org.edgesuite.net
-a02.cdn.update.playstation.net
-a02.cdn.update.playstation.org.edgesuite.net
-b0.ww.np.dl.playstation.net
-deu01.ps3.update.playstation.net
-ena.net.playstation.net
-ena.net.playstation.net.edgekey.net.globalredir.akadns88.net
-ena.net.playstation.net.edgekey88.net
-eu.playstation.com
-feu01.ps3.update.playstation.net
-l02.cdn.update.playstation.net
-nsx.sec.np.dl.playstation.net
-nsx.sec.np.dl.playstation.net.edgesuite.net.globalredir.akadns88.net
-nsx.sec.np.dl.playstation.net.edgesuite88.net
-stun.ww.np.cn.s0.playstation.net
-us.np.stun.playstation.net
-www.playstation.com
-www.playstation.com-v2.edgekey.net
-www.playstation.com-v2.edgekey.net.globalredir.akadns.net
-id.sonyentertainmentnetwork.com
-
-   
-#Playstation 5 "Recently Played Games" and Trophies
-####################################################
-
-telemetry-console.api.playstation.com
-
-#Cannon Printers Firmware Update
-#################################
-
-gdlp01.c-wss.com
-
-#Reddit
-###############
-
-www.reddit.com
-www.redditmedia.com
-www.redditstatic.com
-styles.redditmedia.com
-styles.redditmedia.com
-www.redditstatic.com
-reddit.map.fastly.net
-www.redditmedia.com
-reddit-uploaded-media.s3-accelerate.amazonaws.com
-[a-z]\.thumbs\.redditmedia\.com
-(\.|^)redd\.it$
-(\.|^)reddit\.com$
-
-#Signal Messenger
-###################
-
-ud-chat.signal.org
-chat.signal.org
-storage.signal.org
-signal.org
-www.signal.org
-updates2.signal.org
-textsecure-service-whispersystems.org
-giphy-proxy-production.whispersystems.org
-cdn.signal.org
-whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com
-d83eunklitikj.cloudfront.net
-souqcdn.com
-cms.souqcdn.com
-api.directory.signal.org
-contentproxy.signal.org
-turn1.whispersystems.org
-sfu.voip.signal.org
-chat.signal.org
-storage.signal.org
-
-#Willhaben
-##################
-
-cache.willhaben.at
-autocomplete.willhaben.at
-api.willhaben.at
-www.willhaben.at
-xmpp.messaging.advgo.net
-knocker.advgo.net
-willhaben.at
-sso.willhaben.at
-faast.advgo.net
-widget.messaging.advgo.net
-rt-ws.messaging.advgo.net
-
-#Geizhals
-###########
-
-api.geizhals.net
-gzhls.at
-geizhals.at
-
-#Austrian Post
-###############
-
-assets.post.at
-api.post.at
-api.www.post.at
-login.post.at
-post.at
-www.post.at
-
-#Boku University
-##################
-
-auth.boku.ac.at
-idp.boku.ac.at
-learn.boku.ac.at
-lernen.oehboku.org
-online.boku.ac.at
-students.boku.ac.at
-www.boku4you.at
-file.boku.ac.at
-lbtforum.at
-www.bokuwiese.at
-www.lbtforum.at
-
-#GrapheneOS
-############
-
-time.grapheneos.org
-grapheneos.online
-grapheneos.org
-broadcom.psds.grapheneos.org
-apps.grapheneos.org
-connectivitycheck.grapheneos.network
-releases.grapheneos.org
-remoteprovisioning.grapheneos.org
-
-#Ookla Speedtest
-##################
-user-api.speedtest.net
-fal.openspeedtest.com
-www.speedtest.net
-speedtest-vix.cosys.cc
-speedtest.a1.net
-speedtest.ama-networx.net
-speedtest.kapper.net
-speedtest.nessus.at
-speedtest.nextlayer.at
-speedtest.telematica.at
-mapi.speedtest.net
-
-
-#Clash Of Clans
-#################
-
-cdn.id.supercell.com
-inventory.mtech.supercell.com
-id.supercell.com
-clashofclans.inbox.supercell.com
-gamea.clashofclans.com
-
-#Telegram
-#########
-
-api.telegram.org
-td.telegram.org
-web.telegram.org
-telegram.org
-www.telegram.org
-
 #OCSP
-#######
-
+#####
 ocsp.akamai.certum.pl
 ocsp.certainly.map.fastly.net
 ocsp.certum.pl.edgekey.net
@@ -2216,192 +1452,24 @@ ocsp.int-x3.letsencrypt.org
 ocsp.verisign.com
 ocsp.sca1b.amazontrust.com
 ocsp.godaddy.com
-ocsp.r2m01.amazontrust.com
-ocsp.r2m02.amazontrust.com
-ocsp.r2m03.amazontrust.com
-ocsp.rootca1.amazontrust.com
+
 ocsp.pki.goog
 
+#Wordpress
+##########
+wordpress.com
+www.wordpress.com
+lb.wordpress.com
+wp.com
+s0.wp.com
+s1.wp.com
+s2.wp.com
+s.w.org
 
+#=============================== Banking and payment ======================================#
 
-#Kaspersky
-###########
-
-crl.kaspersky.com
-dc1-cert.ksn.kaspersky-labs.com
-dc1-file.ksn.kaspersky-labs.com
-dc1-st.ksn.kaspersky-labs.com
-dc1.ksn.kaspersky-labs.com
-downloads.upd.kaspersky.com
-ds.kaspersky.com
-inter-fe.geo.kaspersky.com
-ipm-cloud-content-klca.geo.kaspersky.com
-ipm-cloud-content-klca.geo.kaspersky.com	
-ipm-klca.kaspersky.com
-ipm-klca.kaspersky.com	                  
-kis.v2.scr.kaspersky-labs.com
-ksn-cinfo-geo.kaspersky-labs.com
-ksn-dc1-file.geoksn.kaspersky.com
-ksn-dc1-st.geoksn.kaspersky.com
-ksn-dc1.geoksn.kaspersky.com
-ksn-ds.geoksn.kaspersky.com
-ksn-file-geo.kaspersky-labs.com
-ksn-stat-geo.kaspersky-labs.com
-ksn-url-geo.kaspersky-labs.com
-ksn-url.geoksn.kaspersky.com
-ksn-verdict-geo.kaspersky-labs.com
-me.kis.v2.scr.kaspersky-labs.com
-multisite-support.geo.kaspersky.com
-multisite.geo.kaspersky.com
-ns1.kasperskylabs.net
-ns2.kasperskylabs.net
-ns3.kasperskylabs.net
-s00.upd.kaspersky.com
-s06.upd.kaspersky.com
-s07.upd.kaspersky.com
-s07.upd.kaspersky.com	                  
-s08.upd.kaspersky.com
-s09.upd.kaspersky.com
-s09.upd.kaspersky.com	                  
-s15.upd.kaspersky.com
-sdeconfig.kaspersky-labs.com
-
-#Sony Soundbar Firmware Update
-##############################
-
-blu-ray.update.sony.net
-m.root-servers.net
-www.sony.de
-
-#Smartphone Android Apps
-##########################
-
-accuweather.com
-api.accuweather.com
-
-aloha.api.maps.me
-amp.shazam.com
-api.fing.io
-api.getdelta.io
-api.maps.me
-api.marktguru.at
-api.marktguru.de
-api.studo.co
-api.tiles.mapbox.com
-api.weather.com
-auroraoss.com
-auth.uber.com
-
-
-cdn.fing.io
-cdn.shazam.com
-chat.studo.co
-config.shazam.com
-connect.garmin.com
-connectapi.garmin.com
-delta.app
-diauth.garmin.com
-educom.kontomanager.at
-fahrplan.oebb.at
-get.delta.app
-handyparken.at
-iphone.hafas.de  #ÖBB
-tickets.oebb.at
-maps.me
-
-mobile.oebbtickets.at
-newpipe.net
-open.delta.app
-
-
-shazam.com
-static.delta.app
-static.garmincdn.com
-static.ubnt.com
-tb-static.uber.com
-wienmobil.page.link
-xoxo.kontomanager.at
-app.launchdarkly.com
-
-#Different Websites and Stuf
-###############################
-
-accounts.pinterest.com
-adidas.com
-aktienfinder.net
-api.steampowered.com
-store.steampowered.com
-steamcommunity.com
-steamcloud-eu-ams.storage.googleapis.com
-store.akamai.steamstatic.com
-apps.wixrestaurants.com
-ding.wix.com
-frog.wix.com
-static.wixstatic.com
-asics.com
-assets.adobedtm.com
-assets.readthedocs.org
-audible.com
-billiger.de
-browserleaks.com
-crontab.guru
-dell.com
-docs.readthedocs.io
-duckduckgo.com
-dynupdate.no-ip.com
-eu.startpage.com
-issuu.com
-login.steampowered.com
-media.readthedocs.org
-niederoesterreich-card.at
-opendns.com
-openspeedtest.com
-fal.openspeedtest.com
-openwrt.org
-pastebin.com
-piholediscourse.b-cdn.net
-pinterest.com
-i.pinimg.com
-i.pinimg.com.gslb.pinterest.com
-readthedocs.io
-readthedocs.org
-recaptcha.net
-samsung.com
-starbucks.com
-startpage.com
-static.kickstarter.com
-static.wixstatic.com
-store.akamai.steamstatic.com
-store.steampowered.com
-twitch.tv
-vorteilsclub.wien.at
-who.is
-wienkg.biolife-termine.at
-
-www.iaeste.at
-www.immobilienscout24.at
-www.ingenetix.com
-www.issuu.com
-www.kickstarter.com
-www.kleinanzeigen.de
-www.konami.com
-www.laenderdaten.info
-www.linkedin.com
-at.linkedin.com
-media.licdn.com
-www.niederoesterreich-card.at
-www.oeamtc.at
-www.oetker.at
-www.openstreetmap.org
-www.pastebin.com
-www.pinterest.at
-www.pinterest.com
-www.recaptcha.net
-www.startpage.com
-www.wetter.com
-
-#Banks
-##########################
+#Banking
+########
 cdn0.erstegroup.com
 depot.dad.at
 info.raiffeisen.at
@@ -2409,19 +1477,8 @@ sso.raiffeisen.at
 www.dad.at
 www.sparkasse.at
 
-#Insurance
-############
-auth.myuniqa.at
-donauversicherung.at
-kundenportal.donauversicherung.at
-kundenportal.generali.at
-mydonau.donauversicherung.at
-www.generali.at
-www.myuniqa.at
-myuniqa.at
-
 #Paypal
-###########
+#######
 b.stats.paypal.com
 c.paypal.com
 api-m.paypal.com
@@ -2441,8 +1498,118 @@ eu-library.klarnaservices.com
 secure.ixopay.com
 gateway.ixopay.com
 
+#Trusted crypto exchanges and wallets
+#####################################
+account.bitpanda.com
+accounts.binance.com
+api.bitpanda.com
+api.coingecko.com
+api.shimmer.network
+api.stardust-mainnet.iotaledger.net
+api.stardust-mainnet.iotaledger.net
+app.bake.io
+app.cakedefi.com
+bilaxy.com
+binance.com
+bitpanda.at
+bitpanda.com
+bittrex.com
+blockchair.com
+cdn.bitpanda.com
+coinfinity.co
+coinmarketcap.com
+dl.firefly.iota.org
+dnsseed.bitcoin.dashjr.org
+dnsseed.bluematt.me
+etherscan.io
+global.bittrex.com
+hitbtc.com
+iota-node.tanglebay.com
+liqui.io
+min-api.cryptocompare.com
+myetherwallet.com
+sbcdn.bitpanda.com
+seed.bitcoin.sipa.be
+seed.bitcoinstats.com
+shimmer-node.tanglebay.com
+socket-v3.bittrex.com
+socket.bitpanda.com
+web.bitpanda.com
+www.binance.com
+www.bitcoin.de
+www.bitpanda.com
+www.kucoin.com
+www.liqui.io
+yobit.net
+
+#=============================== Gaming ======================================#
+
+#Steam
+######
+api.steampowered.com
+store.steampowered.com
+steamcommunity.com
+steamcloud-eu-ams.storage.googleapis.com
+store.akamai.steamstatic.com
+
+#Clash Of Clans
+#################
+
+cdn.id.supercell.com
+inventory.mtech.supercell.com
+id.supercell.com
+clashofclans.inbox.supercell.com
+gamea.clashofclans.com
+
+#Grand Theft Auto V Online PC
+#######################################
+prod.telemetry.ros.rockstargames.com		
+
+#Epic Games Store (required to make a purchase on the website)
+#################################################################
+tracking.epicgames.com
+
+#Origin (Savegame-Sync)
+#########################
+cloudsync-prod.s3.amazonaws.com
+
+#EA Games
+#########
+ea.com
+proxy.novafusion.ea.com
+
+#Sony Playstation 3 Updates
+#################################
+a0.ww.np.dl.playstation.net
+a01.cdn.update.playstation.org.edgesuite.net
+a02.cdn.update.playstation.net
+a02.cdn.update.playstation.org.edgesuite.net
+b0.ww.np.dl.playstation.net
+deu01.ps3.update.playstation.net
+ena.net.playstation.net
+ena.net.playstation.net.edgekey.net.globalredir.akadns88.net
+ena.net.playstation.net.edgekey88.net
+eu.playstation.com
+feu01.ps3.update.playstation.net
+l02.cdn.update.playstation.net
+nsx.sec.np.dl.playstation.net
+nsx.sec.np.dl.playstation.net.edgesuite.net.globalredir.akadns88.net
+nsx.sec.np.dl.playstation.net.edgesuite88.net
+stun.ww.np.cn.s0.playstation.net
+us.np.stun.playstation.net
+www.playstation.com
+www.playstation.com-v2.edgekey.net
+www.playstation.com-v2.edgekey.net.globalredir.akadns.net
+id.sonyentertainmentnetwork.com
+   
+#Playstation 5 "Recently Played Games" and Trophies
+####################################################
+telemetry-console.api.playstation.com
+
+#=============================== Online services ======================================#
+
 #Mail Provider
-################
+##############
 1und1.de
 a1.net
 alice.de
@@ -2615,55 +1782,772 @@ www.vol.at
 www.web.de
 www.world4you.com
 www.ycn.com
-
-
-
-
 ycn.com
-druck.at
-www.druck.at
-a1fhol.lotterien.at
-arstechnica.com
 
+#Ookla Speedtest
+################
+user-api.speedtest.net
+fal.openspeedtest.com
+www.speedtest.net
+speedtest-vix.cosys.cc
+speedtest.a1.net
+speedtest.ama-networx.net
+speedtest.kapper.net
+speedtest.nessus.at
+speedtest.nextlayer.at
+speedtest.telematica.at
+mapi.speedtest.net
+
+#Telegram
+#########
+api.telegram.org
+td.telegram.org
+web.telegram.org
+telegram.org
+www.telegram.org
+
+#No-IP DynDNS
+#############
+no-ip.com
+www.no-ip.com
+dynupdate.no-ip.com
+
+#Giphy
+######
+media0.giphy.com
+media1.giphy.com
+media2.giphy.com
+media3.giphy.com
+media.tenor.co
+
+#Dropbox
+##############
+dl.dropboxusercontent.com
+dl.dropboxusercontent.com 
+dl.dropbox.com
+dl.dropboxusercontent.com
+ns1.dropbox.com 
+ns2.dropbox.com
+        
+#Reddit
+###############
+www.reddit.com
+www.redditmedia.com
+www.redditstatic.com
+styles.redditmedia.com
+styles.redditmedia.com
+www.redditstatic.com
+reddit.map.fastly.net
+www.redditmedia.com
+reddit-uploaded-media.s3-accelerate.amazonaws.com
+[a-z]\.thumbs\.redditmedia\.com
+(\.|^)redd\.it$
+(\.|^)reddit\.com$
+
+#Signal Messenger
+#################
+ud-chat.signal.org
+chat.signal.org
+storage.signal.org
+signal.org
+www.signal.org
+updates2.signal.org
+textsecure-service-whispersystems.org
+giphy-proxy-production.whispersystems.org
+cdn.signal.org
+whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com
+d83eunklitikj.cloudfront.net
+souqcdn.com
+cms.souqcdn.com
+api.directory.signal.org
+contentproxy.signal.org
+turn1.whispersystems.org
+sfu.voip.signal.org
+chat.signal.org
+storage.signal.org
+
+#=============================== Software ======================================#
+
+# Roku TV apps
+##############
+dcs-vod.apis.anvato.net
+z.cdn.turner.com
+manifest.auditude.com
+cwtv-mrss-akamai.cwtv.com
+cwtv-prod-elb.digitalsmiths.net
+redirector.googlevideo.com
+
+# Samsung TV's Amazon Prime Video app
+#####################################
+time.samsungcloudsolution.com
+
+# Samsung smart TV's network issue
+##################################
+cdn.samsungcloudsolution.com
+
+# LG Firmware Updates
+#####################
+acdnus.lge.com
+
+# Adobe licence verification endpoints
+######################################
+lm.licenses.adobe.com
+activate.adobe.com 
+ereg.adobe.com 
+ereg.wip3.adobe.com
+activation.adobedtm.com
+
+#Kaspersky Antivirus
+####################
+crl.kaspersky.com
+dc1-cert.ksn.kaspersky-labs.com
+dc1-file.ksn.kaspersky-labs.com
+dc1-st.ksn.kaspersky-labs.com
+dc1.ksn.kaspersky-labs.com
+downloads.upd.kaspersky.com
+ds.kaspersky.com
+inter-fe.geo.kaspersky.com
+ipm-cloud-content-klca.geo.kaspersky.com
+ipm-cloud-content-klca.geo.kaspersky.com	
+ipm-klca.kaspersky.com
+ipm-klca.kaspersky.com	                  
+kis.v2.scr.kaspersky-labs.com
+ksn-cinfo-geo.kaspersky-labs.com
+ksn-dc1-file.geoksn.kaspersky.com
+ksn-dc1-st.geoksn.kaspersky.com
+ksn-dc1.geoksn.kaspersky.com
+ksn-ds.geoksn.kaspersky.com
+ksn-file-geo.kaspersky-labs.com
+ksn-stat-geo.kaspersky-labs.com
+ksn-url-geo.kaspersky-labs.com
+ksn-url.geoksn.kaspersky.com
+ksn-verdict-geo.kaspersky-labs.com
+me.kis.v2.scr.kaspersky-labs.com
+multisite-support.geo.kaspersky.com
+multisite.geo.kaspersky.com
+ns1.kasperskylabs.net
+ns2.kasperskylabs.net
+ns3.kasperskylabs.net
+s00.upd.kaspersky.com
+s06.upd.kaspersky.com
+s07.upd.kaspersky.com
+s07.upd.kaspersky.com	                  
+s08.upd.kaspersky.com
+s09.upd.kaspersky.com
+s09.upd.kaspersky.com	                  
+s15.upd.kaspersky.com
+sdeconfig.kaspersky-labs.com
+
+#Smartphone Android Apps
+########################
+accuweather.com
+aloha.api.maps.me
+amp.shazam.com
+api.accuweather.com
+api.fing.io
+api.getdelta.io
+api.maps.me
+api.marktguru.at
+api.marktguru.de
+api.studo.co
+api.tiles.mapbox.com
+api.weather.com
+app.launchdarkly.com
+auroraoss.com
+auth.uber.com
+cdn.fing.io
+cdn.shazam.com
+chat.studo.co
+config.shazam.com
+connect.garmin.com
+connectapi.garmin.com
+delta.app
+diauth.garmin.com
+educom.kontomanager.at
+fahrplan.oebb.at
+get.delta.app
+handyparken.at
+iphone.hafas.de  #ÖBB
+maps.me
+mobile.oebbtickets.at
+newpipe.net
+open.delta.app
+shazam.com
+static.delta.app
+static.garmincdn.com
+static.ubnt.com
+tb-static.uber.com
+tickets.oebb.at
+wienmobil.page.link
+xoxo.kontomanager.at
+
+#GrapheneOS
+###########
+time.grapheneos.org
+grapheneos.online
+grapheneos.org
+broadcom.psds.grapheneos.org
+apps.grapheneos.org
+connectivitycheck.grapheneos.network
+releases.grapheneos.org
+remoteprovisioning.grapheneos.org
+
+
+
+#Software downloads and updates
+###############################
+advanced-ip-scanner.com
+api-private.atlassian.com
+api.atlassian.com
+appcenter.software-univention.de
+assets.nagios.com
+assets.plesk.com
+autoupdate7.synology.com
+backoffice6.citavi.com
+ccleaner.com
+cdn.discordapp.com
+certbot.eff.org
+citaviweb.citavi.com
+client.teamviewer.com
+collaboraoffice.com
+confluence.atlassian.com
+confluence.prd.cst.atlassian.com
+dataupdate7.synology.com
+debian.map.fastlydns.net
+debian.org
+discord.com
+dl.discordapp.net
+docs.nextcloud.com
+exchange.icinga.com
+exchange.nagios.org
+f-droid.org
+forge.univention.org
+freebsd.org
+fw-update.ubnt.com
+global.download.synology.com
+grafana.com
+grafana.tt.omtrdc.net
+guacamole.apache.org
+icinga.com
+jira.atlassian.com
+kb.kopano.io
+kernel.org
+letsencrypt.org
+r3.o.lencr.org
+libre-software.net
+limesurvey.org
+magiskmanager.com
+manual.limesurvey.org
+moneymanagerex.org
+multicraft.org
+netbsd.org
+nextcloud.com
+openbsd.org
+packages.element.io
+packages.synocommunity.com
+pfsense.org
+pkgautoupdate.synologyupdate.com
+pkgupdate7.synology.com
+portal.kopano.com
+redhat.com
+repo.zabbix.com
+router13.teamviewer.com
+router15.teamviewer.com
+teamviewer.com
+update.cdburnerxp.org
+update.cdburnerxp.se
+update7.synology.com
+updates.discord.com
+updates.nextcloud.org
+updates.software-univention.de
+videolan.org
+wacom.com
+winscp.net
+www.advanced-ip-scanner.com
+www.atlassian.com
+www.ccleaner.com
+www.citavi.com
+www.collaboraoffice.com
+www.debian.org
+www.minecraft.net
+www.mysql.com
+www.partitionwizard.com
+www.seafile.com
+www.solvusoft.com
+www.synology.com
+www.univention.com
+www.univention.de
+www.xrdp.org
+z-hub.io
+www.rethinkdns.com
+rethinkdns.com
+dl.rethinkdns.com
+www.privacy.sexy
+privacy.sexy
+noscript.net
+www.noscript.net
+www.maxmind.com
+device.maxmind.com
+maxmind.com
+dev.maxmind.com
+status.maxmind.com
+support.maxmind.com
+static.maxmind.com
+www.chatgpt.com
+chatgpt.com
+www.chromium.org
+download.wireguard.com
+www.wireguard.com
+wireguard.com
+downloads.codefi.re
+tailscale.com
+
+#Moto phones OS updates
+########################
+appspot-preview.l.google.com
+
+#Cannon Printers Firmware Update
+################################
+gdlp01.c-wss.com
+
+#Lenovo
+#######
+cms.csw.lenovo.com
+cms.csw.lenovo.com.edgekey.net
+cms.csw.lenovo.com.edgekey.net.globalredir.akadns.net
+download.lenovo.com
+download.lenovo.com.akadns.net
+download.lenovo.com.edgekey.net
+download.lenovo.com.edgekey.net.globalredir.akadns.net
+filedownload-csw-lenovo.com
+filedownload.csw.lenovo.com
+filedownload.lenovo.com
+filedownload.lenovo.com.akadns.net
+msg.csw.lenovo.com
+supportapi.lenovo.com
+supportapi.lenovo.com.edgekey.net
+vantage-csw-lenovo.com
+vantage.csw.lenovo.com
+
+#NVIDIA GeForce Experience (needed for driver updates)
+######################################################
+events.gfe.nvidia.com
+gfwsl.geforce.com
+
+# Nvidia updates
+################
+nvidia.com
+ota-downloads.nvidia.com
+mobileupdate.nvidia.com
+ota-internal.nvidia.com
+ota.nvidia.com
+images.nvidia.com
+
+#Sony Soundbar Firmware Update
+##############################
+blu-ray.update.sony.net
+m.root-servers.net
+www.sony.de
+#=============================== Websites ======================================#
+
+#Recipes and cooking
+####################
+assets.ichkoche.at
+brotwein.net
+eatsmarter.de
+emmikochteinfach.de
+firechefs.de
+footlocker.com
+gutekueche.at
+ikea.com
+kochkarussell.com
+mediamarkt.at
+mediamarkt.de
+static.ichkoche.at
+thomassixt.de
+www.falstaff.at
+www.gutekueche.at
+www.ichkoche.at
+www.seifen-rezepte.de
+www.steirische-spezialitaeten.at
+www.tasteoftravel.at
+
+#Online news
+############
+apa.at
+bbc.com
+bloomberg.com
+cnn.com
+der-postillon.com
+derstandard.at
+diepresse.com
+dietagespresse.com
+diginews.apa.at
+epaper-oesterreich.at
+epaper.kurier.at
+faz.net
+forbes.com
+heise.de
+heute.at
+img.diepresse.com
+krone.at
+kurier.at
+media.diepresse.com
+oe24.at
+oesterreich.diginews.apa.at
+php.heute.at
+pics.computerbase.de
+praxistipps.chip.de
+praxistipps.focus.de
+t-online.at
+t-online.de
+taz.de
+vcdn.bergfex.at
+vice.com
+vox.com
+wetter.de
+wintotal.de
+www.bergfex.at
+www.bergnews.com
+www.brigitte.de
+www.computerbase.de
+www.computerbild.de
+r2.computerbild.de
+www.der-postillon.com
+www.derstandard.at
+www.diepresse.com
+www.faz.net
+www.heute.at
+www.krone.at
+www.oe24.at
+www.stadt-wien.at
+www.wintotal.de
+www.woman.at
+www.der-postillon.com
+der-postillon.com
+
+#Wikis
+######
+carddex.net
+de.wikihow.com
+de.wikipedia.org
+dokuwiki.nausch.org
+fandom.com
+minecraft-de.gamepedia.com
+minecraft.fandom.com
+services.fandom.com
+wiki.benno-mailarchiv.de
+wiki.debian.org
+wiki.linuxmuster.net
+wiki.pratznschutz.com
+wiki.z-hub.io
+www.carddex.net
+www.db.yugioh-card.com
+www.fandom.com
+www.synology-wiki.de
+www.wikihow.com
+www.wikihow.de
+www.wikipedia.com
+www.wikipedia.org
+www.yugioh-card.com
+www.yugioh-wiki.de
+yugioh-wiki.de
+
+#Forum Sites
+############
+administrator.de
+android-hilfe.de
+androidforums.com
+answers.com
+answers.microsoft.com
+ask.fm
+askubuntu.com
+b2discourse.b-cdn.net
+b2discourse.pi-hole.net
+discourse-cdn.pi-hole.net
+discourse.pi-hole.net
+elongated-coin.de
+forum.golem.de
+forum.howtoforge.com
+forum.kopano.io
+forum.xda-developers.com
+forums.appleinsider.com
+forums.geforce.com
+forums.ilounge.com
+forums.limesurvey.org
+forums.linuxmint.com
+forums.macrumors.com
+forums.malwarebytes.com
+forums.mozillazine.org
+forums.pcsx2.net
+forums.plex.tv
+forums.roku.com
+forums.sonarr.tv
+forums.techguy.org
+forums.tomshardware.com
+forums.whirlpool.net.au
+haustechnikdialog.de
+help.nextcloud.com
+help.univention.com
+serverfault.com
+stackexchange.com
+stackoverflow.com
+steamcommunity.com
+superuser.com
+ubuntuforums.org
+unix.stackexchange.com
+www.android-hilfe.de
+www.digital-eliteboard.com
+www.elongated-coin.de
+www.gutefrage.net
+www.haustechnikdialog.de
+www.numismatikforum.de
+www.numispedia.de
+www.stackoverflow.com
+www.xda-developers.com
+www.zierfischforum.at
+www.w10privacy.de
+xda-developers.com
+discuss-ec2.96boards.org
+discuss.96boards.org
+
+#Blogs
+######
+bencane.com
+blog.doenselmann.com
+blog.logrocket.com
+blog.sleeplessbeastie.eu
+blog.whabash.com
+blog.mozilla.com
+blog.mozilla.org
+blog.whabash.com
+computingforgeeks.com
+crycode.de
+der-linux-admin.de
+deskmodder.de
+dev.mysql.com
+developer.android.com
+docs.hardentheworld.org
+fitness-schmiede.at
+fribeiro.org
+geekflare.com
+geekrewind.com
+harden-the-world.readthedocs.org
+hobby-kosmetik.de
+itechlounge.net
+kifarunix.com
+linustechtips.com
+linuxconfig.org
+linuxincluded.com
+markus-blog.de
+medium.com
+memodaille.com
+nutripassion.de
+olionatura.de
+pennypresses.net
+pixelnostalgie.de
+privacy-handbuch.de
+security-blog.eu
+services.benno-mailarchiv.de
+spiceworks.com
+thomas-leister.de
+tweaking4all.com
+utopia.de
+webserver.linuxmuster.net
+websiteforstudents.com
+windowsbulletin.com
+www.adlerweb.info
+www.allerstorfer.at
+www.biogaertner.at
+www.blogheim.at
+www.claudiokuenzler.com
+www.computerhope.com
+www.ctrl.blog
+www.cyberciti.biz
+www.deskmodder.de
+www.dwarmstrong.org
+www.electrictoolbox.com
+www.everythingcli.org
+www.fortynorthsecurity.com
+www.hobby-kosmetik.de
+www.howtoforge.com
+www.invenios.de
+www.itechlounge.net
+www.itrig.de
+www.linhub.de
+www.linode.com
+www.linux.com
+www.linuxbabe.com
+www.linuxincluded.com
+www.linuxmuster.net
+www.lostsaloon.com
+www.netways.de
+www.olionatura.de
+www.pixelcontainer.net
+www.privacy-handbuch.de
+www.quetschmuenzen.de
+www.security-blog.eu
+www.servus.com
+www.shellbefehle.de
+www.systemtek.co.uk
+www.talerbox.com
+www.tecmint.com
+www.thomashorn.eu
+www.tina.fitness
+www.tweaking4all.com
+www.unixmen.com
+www.whisperedshouts.de
+www.wpbeginner.com
+www.zilowtech.com
+hackershell.noblogs.org
+
+#Insurance
+############
+auth.myuniqa.at
+donauversicherung.at
+kundenportal.donauversicherung.at
+kundenportal.generali.at
+mydonau.donauversicherung.at
+www.generali.at
+www.myuniqa.at
+myuniqa.at
+
+#Austrian Government Sites
+###########################
+finanzonline.bmf.gv.at
+help.gv.at
+sso.sozialversicherung.at
+www.help.gv.at
+oesterreich.gv.at
+eid.oesterreich.gv.at
+bmf.gv.at
+
+#Boku University
+################
+auth.boku.ac.at
+idp.boku.ac.at
+learn.boku.ac.at
+lernen.oehboku.org
+online.boku.ac.at
+students.boku.ac.at
+www.boku4you.at
+file.boku.ac.at
+lbtforum.at
+www.bokuwiese.at
+www.lbtforum.at
+
+#Different Websites and Stuf
+#############################
+a1fhol.lotterien.at
+accounts.pinterest.com
+adidas.com
+aktienfinder.net
+apps.wixrestaurants.com
+arstechnica.com
+asics.com
+assets.adobedtm.com
 assets.mmsrg.com
+assets.readthedocs.org
+at.linkedin.com
+audible.com
+billiger.de
+browserleaks.com
 cdn.mxapis.com
 cdn.teufelaudio.com
-www.wololo.net
-www.wieistmeineip.de
-www.upsellit.com
-www.objectbay.com
-objectbay.com
-www.netgate.com
-netgate.com
-www.lotterien.at
-lotterien.at
-www.lottohelden.de
-lottohelden.de
-www.cyberciti.biz
-www.etoro.com
-www.happyfoto.at
-happyfoto.at
-www.indeedunique.com
 content.invisioncic.com
 coolrom.come
-mail.karriere.at
-www.karriere.at
-karriere.at
-resc.deskline.net
+crontab.guru
+dell.com
+ding.wix.com
+docs.readthedocs.io
+druck.at
+duckduckgo.com
+dynupdate.no-ip.com
 embed.typeform.com
+eu.startpage.com
+fal.openspeedtest.com
 fedex.com
+fingerprint.com
+form.typeform.com
+frog.wix.com
+happyfoto.at
+i.pinimg.com
+i.pinimg.com.gslb.pinterest.com
 i.wfcdn.de
+issuu.com
 j.wfcdn.de
+karriere.at
+login.steampowered.com
+lotterien.at
+lottohelden.de
+mail.karriere.at
+media.licdn.com
+media.readthedocs.org
+medias.maisonsdumonde.com
+netgate.com
+niederoesterreich-card.at
+nordvpn.com
+objectbay.com
+opendns.com
+openspeedtest.com
+openwrt.org
+pastebin.com
+piholediscourse.b-cdn.net
+pinterest.com
 psp.brewology.com
 px.wa.ui-portal.de
 query1.finance.yahoo.com
+readthedocs.io
+readthedocs.org
+recaptcha.net
+resc.deskline.net
+samsung.com
+starbucks.com
+startpage.com
+static.kickstarter.com
 static.ubnt.com
-winfuture.de
-whatismyipaddress.com
-wallpapercave.com
+static.wixstatic.com
+static.wixstatic.com
+store.akamai.steamstatic.com
+store.steampowered.com
+twitch.tv
 urlscan.io
-medias.maisonsdumonde.com
+vorteilsclub.wien.at
+wallpapercave.com
+whatismyipaddress.com
+who.is
+wienkg.biolife-termine.at
+winfuture.de
 www.acp-gruppe.com
-fingerprint.com
-form.typeform.com
-nordvpn.com
+www.cyberciti.biz
+www.druck.at
+www.etoro.com
+www.happyfoto.at
+www.iaeste.at
+www.immobilienscout24.at
+www.indeedunique.com
+www.ingenetix.com
+www.issuu.com
+www.karriere.at
+www.kickstarter.com
+www.kleinanzeigen.de
+www.konami.com
+www.laenderdaten.info
+www.linkedin.com
+www.lotterien.at
+www.lottohelden.de
+www.netgate.com
+www.niederoesterreich-card.at
+www.objectbay.com
+www.oeamtc.at
+www.oetker.at
+www.openstreetmap.org
+www.pastebin.com
+www.pinterest.at
+www.pinterest.com
+www.recaptcha.net
+www.startpage.com
+www.upsellit.com
+www.wetter.com
+www.wieistmeineip.de
+www.wololo.net
