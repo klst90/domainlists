@@ -27,11 +27,11 @@ amazon.de
 amazon.com
 static-eu.payments-amazon.com
 
-#Amazon Prime Video
-####################
+#Amazon Prime Video Streaming
+################################
 
 a58avoddashs3ww-a.akamaihd.net
-ab992t7ewg8z.eu.api.amazonvideo.com        
+lvlt.xp-assets.aiv-cdn.net
 api.amazon.de 
 api.amazon.com
 cloudfront.xp-assets.aiv-cdn.net
@@ -40,10 +40,12 @@ ecx.images-amazon.com
 m.media-amazon.com                         
 threeplr-ab5w7agdemte.api.amazonvideo.com
 threeplr-ab5w7agdemte.api.amazonvideo.com 
-lvlt.xp-assets.aiv-cdn.net
+ab992t7ewg8z.eu.api.amazonvideo.com  
+*.api.amazonvideo.com  
+(\.|^)api\.amazonvideo\.com$
 
-#Amazon Kindle
-###############
+#Amazon Kindle E-Books
+#########################
 
 cognito-identity.us-east-1.amazonaws.com
 unagi-na.amazon.com
@@ -74,6 +76,11 @@ prime.amazon.eu
 
 api.amazon.com
 n4h9utzk4f.execute-api.us-east-1.amazonaws.com
+
+#Amazon Time Server
+####################
+
+ftv-smp.ntp-fireos.com
 
 #Apple Music
 ################
@@ -117,13 +124,17 @@ s.mzstatic.com
 
 ocsp.apple.com
 
-#Apple TV
-#################
+#Apple TV Video Streaming
+###########################
 
 atve.tv.apple.com
 known-issues.apple.com
 mediaservices.cdn-apple.com
 
+#Apple Time Server
+######################
+
+time.apple.com
 
 #Facebook, Instagram and Facebook Messenger
 #############################################
@@ -229,6 +240,10 @@ web.facebook.com
 www.facebook.com
 www.facebook.com 
 www.messenger.com
+eu.api.amazonvideo.com
+scontent-vie1-1.xx.fbcdn.net
+star-mini.c10r.facebook.com
+mqtt-ig-p4.facebook.com
 
 #Whatsapp
 #############
@@ -351,6 +366,8 @@ whatsapp-chatd-edge-shv-01-vie1.facebook.com
 whatsapp.com
 whatsapp.fbsbx.com
 www.wa.me
+v.whatsapp.net
+g.whatsapp.net
 
 #Google Search
 ##############
@@ -455,7 +472,22 @@ developers.android.com
 source.android.com
 www.android.com
 
-#Google Keep (Notizen App von Google)
+#Google Time Servers
+######################
+time.google.com
+time.android.com
+time1.android.com
+time2.android.com
+time3.android.com
+time4.android.com
+time5.android.com
+time6.android.com
+time7.android.com
+time8.android.com
+time9.android.com
+2.android.pool.ntp.org
+
+#Google Keep (Google notes app)
 #######################################
 
 reminders-pa.googleapis.com 
@@ -463,12 +495,12 @@ firestore.googleapis.com
 reminders-pa.googleapis.com
 keep.google.com
 
-#Google Tasks (Aufgaben App von Google)
+#Google Tasks (Google tasks app)
 #######################################
 
 tasks.google.com
 
-#Kalender (Kalender App von Google)
+#Kalender (Google calendar app)
 ########################################
 
 calendar-pa.clients6.google.com
@@ -479,8 +511,8 @@ calendar.google.com
 
 mail.google.com
 
-#Google Chrome 
-####################################
+#Google Chrome (for download and for updates)
+################################################
 
 dl.google.com
 chrome.google.com
@@ -490,7 +522,7 @@ chrome.google.com
 
 redirector.gvt1.com
 
-#Google Docs (Wird benötigt um manche Seiten im Internet anzuzeigen)
+#Google Docs (needed to show content on some websites)
 #############################################################
 
 docs.google.com
@@ -596,7 +628,6 @@ msftncsi.com
 www.msftconnecttest.com
 ipv6.msftconnecttest.com
 msftconnecttest.com
-
 
 # Windows 7 update servers
 ###########################
@@ -871,6 +902,12 @@ t0.ssl.ak.tiles.virtualearth.net
 dev.virtualearth.net
 ecn.dev.virtualearth.net
 
+#Microsoft Time Servers
+#######################
+
+time.windows.com
+ntp.msn.com
+
 #Mozilla Websites
 #######################
 
@@ -919,23 +956,23 @@ auth.services.mozilla.com
 oauth.accounts.firefox.com
 services.addons.mozilla.org
 
-#Blocklist Update
-##################
+#Update for tracking protection 
+################################
 
 tracking-protection.cdn.mozilla.net
 shavar.services.mozilla.com
 
-#Firefox Remote Settings (u.a. Zertifikatswiderrufe)
+#Firefox Remote Settings (e.g. Certificate revocation)
 #####################################################
  
 firefox.settings.services.mozilla.com
 
-#Überprüfung von Inhaltssignaturen (Addons, Themes etc.)
+#Check for signatures (Addons, Themes etc.)
 ##################################################
 
 content-signature-2.cdn.mozilla.net
 
-#Updates für Addons, themes, usw.
+#Updates for Firfeox Addons, themes, usw.
 ###################################
 
 services.addons.mozilla.org
@@ -969,7 +1006,6 @@ image-cdn-ak.spotifycdn.com
 login5.spotify.com
 scdn.co
 seed-mix-image.spotifycdn.com
-
 
 #Austrian Government Sites
 ###########################
@@ -1029,30 +1065,12 @@ cdn.cookielaw.org
 cdn.privacy-mgmt.com
 vendor-list.consensu.org
 
-#Time Server
-#############
-
+#Other Time Servers
+###################
 time.akamai.com
-time.android.com
-time.apple.com
-time.grapheneos.org
 time.izatcloud.net
-time.windows.com
-ntp.msn.com
 pool.ntp.org
-ftv-smp.ntp-fireos.com
-time.google.com
-time.android.com
-time1.android.com
-time2.android.com
-time3.android.com
-time4.android.com
-time5.android.com
-time6.android.com
-time7.android.com
-time8.android.com
-time9.android.com
-2.android.pool.ntp.org
+
 
 #OpenSource Collaboration 
 ###########################
@@ -1073,7 +1091,7 @@ raw.githubusercontent.com
 raw.github.com
 raw.githubusercontent.com
 
-#Seriöse Cryptobörsen und Wallets
+#Trusted crypto exchanges and wallets
 ####################################
 
 account.bitpanda.com
@@ -1118,7 +1136,7 @@ seed.bitcoin.sipa.be
 seed.bitcoinstats.com
 min-api.cryptocompare.com
 
-#Web Hoster
+#Webhoster
 ##############
 
 accounts.hetzner.com
@@ -1134,8 +1152,8 @@ www.hostpresto.com
 proxy-ssl.webflow.com
 web.jimdo.com
 
-#ORF
-###########
+#ORF Streaming
+###############
 
 api-tvthek.orf.at
 assets.orf.at
@@ -1211,12 +1229,34 @@ zdfvod-pckgr.akamaized.net
 zdfvod-rwrtr.akamaized.net
 zdfvod.akamaized.net
 
-#Online Shops
-##################
+#Booking.com
+############
+account.booking.com
+booking.com
+bstatic.com #Booking
+link.sg.booking.com
+mobile-apps.booking.com
+secure-mobile-apps.booking.com
+counters.booking.com
+www.booking.com
 
+
+#DM Online Shop
+######################
 alternate.at
 assets.dm.de
 del.mm.dm.de
+media.dm-static.com
+signin.dm.at
+media.dm-static.com
+www.dm.at
+dmassets.multicdn.cloudinary.com
+www.dm-paradiesfoto.at
+
+#Online Shops
+##################
+
+
 assets.manufactum.de
 ba-computer.at
 bilder.ottoversand.at
@@ -1225,7 +1265,7 @@ cdn1.interspar.at
 conrad.at
 cyberport.de
 e-tec.at
-media.dm-static.com
+
 media.moemax.com
 media.xxxlutz.com
 mylemon.at
@@ -1239,8 +1279,7 @@ shop.rewe.de
 shop.rewe.de.cdn.cloudflare.net
 shop.wienerlinien.at
 shopshop.reishunger.de
-signin.dm.at
-media.dm-static.com
+
 tee.at
 webapi.alza.cz
 webserver.sonnentor.com
@@ -1253,9 +1292,8 @@ www.bike-components.de
 www.conrad.at
 www.cyberport.de
 www.dedoles.at
-www.dm-paradiesfoto.at
-www.dm.at
-dmassets.multicdn.cloudinary.com
+
+
 www.e-tec.at
 www.interspar.at
 www.loewenzahn.at
@@ -1284,13 +1322,17 @@ crm-cdn.peek-cloppenburg.com
 peek-cloppenburg.com
 www.peek-cloppenburg.com
 h.edge2.salesforce.com
+
+s.shopify.com
+url2600.vitaminexpress.org
+ol.nice-cdn.com
+
+#Bestsecrets
+################
 help.bestsecret.at
 bestsecret.at
 bestsecret.com
 help.bestsecret.at.00d0y000001frqpuau.live.siteforce.com
-s.shopify.com
-url2600.vitaminexpress.org
-ol.nice-cdn.com
 
 # Aliexpress
 ######################
@@ -1849,13 +1891,18 @@ res.cloudinary.com
 unpkg.com
 settingsfd-geo.trafficmanager.net
 
-# for video hosting on various news sites
-#########################
+# Embedded video players on various sites
+##########################################
 dcs-vod.apis.anvato.net
 jwplayer.com
 fresnel.vimeocdn.com
+assets.anyclip.com
+config.anyclip.com
+cdn5.anyclip.com
+trafficmanager.anyclip.com
+player.anyclip.com
 
-#Movie Metadat
+#Movie Metadata
 ###################
 
 themoviedb.com
@@ -1933,7 +1980,7 @@ dl.dropboxusercontent.com
 ns1.dropbox.com 
 ns2.dropbox.com
         
-#NVIDIA GeForce Experience (to download driver updates 
+#NVIDIA GeForce Experience (needed for driver updates)
 #########################################################
 
 events.gfe.nvidia.com
@@ -2231,7 +2278,7 @@ www.sony.de
 
 accuweather.com
 api.accuweather.com
-account.booking.com
+
 aloha.api.maps.me
 amp.shazam.com
 api.fing.io
@@ -2244,9 +2291,7 @@ api.tiles.mapbox.com
 api.weather.com
 auroraoss.com
 auth.uber.com
-booking.com
-bstatic.com #Booking
-link.sg.booking.com
+
 
 cdn.fing.io
 cdn.shazam.com
@@ -2263,12 +2308,12 @@ handyparken.at
 iphone.hafas.de  #ÖBB
 tickets.oebb.at
 maps.me
-mobile-apps.booking.com
+
 mobile.oebbtickets.at
 newpipe.net
 open.delta.app
-secure-mobile-apps.booking.com
-counters.booking.com
+
+
 shazam.com
 static.delta.app
 static.garmincdn.com
@@ -2332,7 +2377,7 @@ twitch.tv
 vorteilsclub.wien.at
 who.is
 wienkg.biolife-termine.at
-www.booking.com
+
 www.iaeste.at
 www.immobilienscout24.at
 www.ingenetix.com
@@ -2355,27 +2400,25 @@ www.recaptcha.net
 www.startpage.com
 www.wetter.com
 
-#Banks / Insurance
+#Banks
 ##########################
-
-
-auth.myuniqa.at
 cdn0.erstegroup.com
 depot.dad.at
-donauversicherung.at
 info.raiffeisen.at
+sso.raiffeisen.at
+www.dad.at
+www.sparkasse.at
+
+#Insurance
+############
+auth.myuniqa.at
+donauversicherung.at
 kundenportal.donauversicherung.at
 kundenportal.generali.at
 mydonau.donauversicherung.at
-myuniqa.at
-sso.raiffeisen.at
-www.dad.at
 www.generali.at
 www.myuniqa.at
-www.sparkasse.at
-eu-library.klarnaservices.com
-secure.ixopay.com
-gateway.ixopay.com
+myuniqa.at
 
 #Paypal
 ###########
@@ -2392,9 +2435,14 @@ lhr.stats.paypal.com
 stats.glb.paypal.com
 t.paypal.com
 
+#Online Payment providers
+##########################
+eu-library.klarnaservices.com
+secure.ixopay.com
+gateway.ixopay.com
+
 #Mail Provider
 ################
-
 1und1.de
 a1.net
 alice.de
@@ -2567,16 +2615,16 @@ www.vol.at
 www.web.de
 www.world4you.com
 www.ycn.com
+
+
+
+
 ycn.com
 druck.at
 www.druck.at
 a1fhol.lotterien.at
 arstechnica.com
-assets.anyclip.com
-config.anyclip.com
-cdn5.anyclip.com
-trafficmanager.anyclip.com
-player.anyclip.com
+
 assets.mmsrg.com
 cdn.mxapis.com
 cdn.teufelaudio.com
