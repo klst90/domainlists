@@ -913,7 +913,7 @@ services.addons.mozilla.org
 #Update for tracking protection 
 ###############################
 tracking-protection.cdn.mozilla.net
-shavar.services.mozilla.com
+
 
 #Firefox Remote Settings (e.g. Certificate revocation)
 ######################################################
