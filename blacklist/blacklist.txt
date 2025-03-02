@@ -2278,9 +2278,15 @@ www.msftconnecttest.com
 xblgdvrassets3010.blob.core.windows.net
 ztd.dds.microsoft.com
 
-#=============================== Amazon domains ======================================#
+#=============================== Mozilla domains ======================================#
 #Telemtry, Tracking, Fakedomains, Etc.
 ######################################
+screenshots.firefox.com
+localize.mozilla.org
+getpocket.cdn.mozilla.net
+location.services.mozilla.com
+geo.mozilla.org
+contile.services.mozilla.com
 accessfirefox.org
 add-ons.mozilla.com
 addon.mozilla.org
@@ -2437,6 +2443,7 @@ ci.mozilla.org
 codefirefox.com
 college.mozilla.com
 college.stage.mozilla.com
+coverage.mozilla.org
 community-store.authstage.mozilla.com
 communitystore.mozilla.org
 confluence1.webapp.phx1.mozilla.com
@@ -3173,7 +3180,6 @@ telemetry-experiment.cdn.mozilla.net
 telemetry.mozilla.org
 tiles.services.mozilla.com
 token.services.mozilla.com
-wiki.mozilla.org
 
 #=============================== Facebook domains ======================================#
 0-channel-proxy-07-ash2.facebook.com
