@@ -2281,6 +2281,7 @@ ztd.dds.microsoft.com
 #=============================== Mozilla domains ======================================#
 #Telemtry, Tracking, Fakedomains, Etc.
 ######################################
+shavar.services.mozilla.com
 screenshots.firefox.com
 localize.mozilla.org
 getpocket.cdn.mozilla.net
